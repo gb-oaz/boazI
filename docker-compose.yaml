@@ -32,27 +32,52 @@ services:
   # #################
   # Backend services
   # #################
-  ms_auth:
-    container_name: ms_auth
+  ms_mono:
+    container_name: ms_mono
     build:
-      context: ./backend/ms_auth
+      context: ./ms_mono
     restart: on-failure
     ports:
       - "8000:8000"
     networks:
       - pi_net
+    depends_on:
+      redis:
+        condition: service_healthy
+    environment:
+      - URI_MONGO_DB=mongodb://mongo:27017
+      - DATABASE_MONGO=PI-Database
+      - COLLECTION_USERS=PI-C-Users
+      - COLLECTION_QUIZES=PI-C-Quizes
+      - COLLECTION_LIVES=PI-C-Lives
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+  ms_auth:
+    container_name: ms_auth
+    build:
+      context: ./ms_auth
+    restart: on-failure
+    ports:
+      - "8001:8001"
+    networks:
+      - pi_net
+    depends_on:
+      - mongo
     environment:
       - URI_MONGO_DB=mongodb://mongo:27017
       - DATABASE_MONGO=PI-Database
   ms_user:
     container_name: ms_user
     build:
-      context: ./backend/ms_user
+      context: ./ms_user
     restart: on-failure
     ports:
-      - "8001:8001"
+      - "8002:8002"
     networks:
       - pi_net
+    depends_on:
+      - mongo
+      - ms_auth
     environment:
       - URI_MONGO_DB=mongodb://mongo:27017
       - DATABASE_MONGO=PI-Database
@@ -60,12 +85,16 @@ services:
   ms_quiz:
     container_name: ms_quiz
     build:
-      context: ./backend/ms_quiz
+      context: ./ms_quiz
     restart: on-failure
     ports:
-      - "8002:8002"
+      - "8003:8003"
     networks:
       - pi_net
+    depends_on:
+      - mongo
+      - ms_auth
+      - ms_user
     environment:
       - URI_MONGO_DB=mongodb://mongo:27017
       - DATABASE_MONGO=PI-Database
@@ -73,32 +102,18 @@ services:
   ms_live:
     container_name: ms_live
     build:
-      context: ./backend/ms_live
+      context: ./ms_live
     restart: on-failure
     ports:
-      - "8003:8003"
+      - "8004:8004"
     networks:
       - pi_net
+    depends_on:
+      redis:
+        condition: service_healthy
     environment:
       - URI_MONGO_DB=mongodb://mongo:27017
       - DATABASE_MONGO=PI-Database
-      - COLLECTION_LIVES=PI-C-Lives
-      - REDIS_HOST=redis
-      - REDIS_PORT=6379
-  ms_mono:
-    container_name: ms_mono
-    build:
-      context: ./backend/ms_mono
-    restart: on-failure
-    ports:
-      - "8005:8005"
-    networks:
-      - pi_net
-    environment:
-      - URI_MONGO_DB=mongodb://mongo:27017
-      - DATABASE_MONGO=PI-Database
-      - COLLECTION_USERS=PI-C-Users
-      - COLLECTION_QUIZES=PI-C-Quizes
       - COLLECTION_LIVES=PI-C-Lives
       - REDIS_HOST=redis
       - REDIS_PORT=6379
