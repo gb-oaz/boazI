@@ -1,4 +1,4 @@
-package com.pi.utils;
+package com.pi.utils.services;
 
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Component;
