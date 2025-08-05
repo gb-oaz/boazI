@@ -3,8 +3,6 @@ package com.core_quiz.core.utils.validations;
 import com.core_quiz.core.domain.itens.IQuizItem;
 import com.core_quiz.core.domain.quiz.*;
 import com.core_quiz.core.domain.slide.*;
-import com.core_quiz.core.domain.quiz.*;
-import com.core_quiz.core.domain.slide.*;
 import com.core_quiz.core.enums.QuizType;
 import com.core_quiz.core.enums.SlideType;
 import com.utils.constants.Regex;
