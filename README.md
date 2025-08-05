@@ -6,7 +6,7 @@
 
 > **"Na força do conhecimento, a sabedoria floresce"**
 
-A **Boaz** é uma plataforma educacional completa que combina duas soluções poderosas: **BoazHub** (central de administração) e **BoazQuest** (aplicativo de quiz interativo). Inspirada em plataformas como Kahoot e Quizizz, oferece uma experiência gamificada que torna o aprendizado dinâmico e envolvente.
+A **Boaz** é uma plataforma educacional completa que combina duas soluções poderosas: **bHub** (central de administração) e **bQuest** (aplicativo de quiz interativo). Inspirada em plataformas como Kahoot e Quizizz, oferece uma experiência gamificada que torna o aprendizado dinâmico e envolvente.
 
 ## **🌐 Nossas Aplicações**
 
