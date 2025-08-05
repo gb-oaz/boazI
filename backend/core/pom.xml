@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.pi</groupId>
-        <artifactId>project-pi</artifactId>
+        <groupId>com</groupId>
+        <artifactId>project-boaz</artifactId>
         <version>1.0.0</version>
     </parent>
 
@@ -195,7 +195,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <packageName>com.pi</packageName>
-                            <mainClass>com.pi.Core</mainClass>
+                            <mainClass>com.Core</mainClass>
                             <classpathPrefix>dependency-pi-jars/</classpathPrefix>
                         </manifest>
                         <manifestEntries>
@@ -302,7 +302,7 @@
                             <goal>java</goal>
                         </goals>
                         <configuration>
-                            <mainClass>com.pi.utils.security.KeyGenerator</mainClass>
+                            <mainClass>com.utils.security.KeyGenerator</mainClass>
                         </configuration>
                     </execution>
                 </executions>
