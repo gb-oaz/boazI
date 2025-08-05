@@ -2,7 +2,6 @@ package com.core_quiz.core.enums;
 
 import com.core_quiz.core.domain.itens.IQuizItem;
 import com.core_quiz.core.domain.quiz.*;
-import com.core_quiz.core.domain.quiz.*;
 
 public enum QuizType {
     QUIZ_MULTIPLE_CHOICE(QuizMultipleChoice.class),
