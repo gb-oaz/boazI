@@ -248,34 +248,8 @@ A **Boaz** é uma plataforma educacional completa que combina duas soluções po
 | **50.000** | Microserviços (escalado) | $668 (~R$ 3.340) | R$ 40.080 |
 | **100.000+** | Multi-região | $1.212 (~R$ 6.060) | R$ 72.720 |
 
-### **💡 Recomendações de Otimização**
 
-#### **🎯 Estratégias de Redução de Custos:**
-
-1. **Committed Use Discounts (CUD):**
-   - **Desconto de 20-28%** com compromisso de 1-3 anos
-   - Ideal para cargas de trabalho previsíveis
-
-2. **Instances Spot:**
-   - **Desconto de 60-70%** para workloads não-críticos
-   - Recomendado para ambientes de dev/test
-
-3. **Horizontal Pod Autoscaler (HPA):**
-   - Escalonamento automático baseado em demanda
-   - Redução de custos em períodos de baixo uso
-
-4. **Resource Optimization:**
-   - Monitoramento contínuo de uso de CPU/memória
-   - Ajuste fino dos resource requests
-
-5. **Arquitetura Monolítica com HPA (ms_mono):**
-   - **Redução de 60% nos custos** comparado a microserviços
-   - **Simplicidade operacional:** Menos pods para gerenciar
-   - **HPA inteligente:** Escalabilidade automática baseada em demanda
-   - **Ideal para MVP:** Validação rápida com menor investimento
-   - **Transição suave:** Migração para microserviços quando necessário
-
-#### **🚀 Plano de Crescimento Progressivo:**
+### **🚀 Plano de Crescimento Progressivo:**
 
 **Fase 1 (MVP - até 5K usuários):** 
 - Arquitetura Monolítica com HPA
