@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/ /app
 
 # Exponha a porta que a aplicação vai usar (por exemplo, 8001)
-EXPOSE 8001
+EXPOSE 8003
 
 # Comando para executar a aplicação
 ENTRYPOINT java -jar -Dspring.profiles.active=prod /app/*.jar
