@@ -49,6 +49,87 @@ A **Boaz** é uma plataforma educacional completa que combina duas soluções po
   - Aplicar treinamentos interativos.
   - Realizar dinâmicas de equipe com quizzes personalizados.
 
+## **💰 Estudo de Valor de Mercado**
+
+### **📊 Panorama Educacional Brasileiro**
+
+**Escolas no Brasil:** 181.939 instituições (públicas e privadas)
+- **Escolas Públicas:** 138.573 (76,2%)
+  - Municipais: 103.817 (57,0%)
+  - Estaduais: 33.485 (18,4%)
+  - Federais: 1.271 (0,7%)
+- **Escolas Privadas:** 43.366 (23,8%)
+
+**Distribuição por municípios:** 5.570 municípios brasileiros
+- **Média de escolas por município:** 32,7 escolas
+- **Média de escolas privadas por município:** 7,8 escolas
+
+**Corpo docente em escolas privadas:** 807.286 professores
+- **Média de professores por escola privada:** 18,6 professores
+
+### **🎯 Estratégia de Precificação**
+
+**Modelo de Assinatura Proposto:**
+- **Mensal:** R$ 15,00/mês
+- **Anual:** R$ 160,00/ano (desconto de 2 meses)
+
+### **📈 Projeções de Faturamento - Meta: R$ 8 milhões**
+
+| Assinantes/Professores | 1 ano | 2 anos | 3 anos | 4 anos | 5 anos |
+|------------------------|-------|--------|--------|--------|--------|
+| **1.000 professores** | R$ 666,67/mês | R$ 333,33/mês | R$ 222,22/mês | R$ 166,67/mês | R$ 133,33/mês |
+| **5.000 professores** | R$ 133,33/mês | R$ 66,67/mês | R$ 44,44/mês | R$ 33,33/mês | R$ 26,67/mês |
+| **10.000 professores** | R$ 66,67/mês | R$ 33,33/mês | R$ 22,22/mês | R$ 16,67/mês | R$ 13,33/mês |
+| **20.000 professores** | R$ 33,33/mês | R$ 16,67/mês | R$ 11,11/mês | R$ 8,33/mês | R$ 6,67/mês |
+| **50.000 professores** | R$ 13,33/mês | R$ 6,67/mês | R$ 4,44/mês | R$ 3,33/mês | R$ 2,67/mês |
+
+### **🎯 Modelos de Negócio**
+
+#### **👤 B2C (Business to Consumer)**
+- **Público:** Professores individuais
+- **Vantagem:** Ciclo de venda rápido, sem burocracia
+- **Ticket:** R$ 15/mês ou R$ 160/ano por professor
+- **Estratégia:** Marketing digital, conteúdo educacional gratuito
+
+#### **🏢 B2B (Business to Business)**
+- **Público:** Escolas e instituições de ensino
+- **Vantagem:** Ticket médio maior, escala institucional
+- **Proposta:** Licença institucional por escola
+- **Exemplo:** R$ 300/mês para escolas com até 25 professores
+
+### **📊 Viabilidade de Mercado**
+
+| Penetração de Mercado | Professores | Receita Mensal | Receita Anual |
+|----------------------|-------------|----------------|---------------|
+| **0,5%** | 4.036 | R$ 60.540 | R$ 726.480 |
+| **1,0%** | 8.073 | R$ 121.095 | R$ 1.453.140 |
+| **2,5%** | 20.182 | R$ 302.730 | R$ 3.632.760 |
+| **5,0%** | 40.364 | R$ 605.460 | R$ 7.265.520 |
+
+### **💡 Estratégias de Crescimento**
+
+#### **🚀 Fase 1: Validação (0-6 meses)**
+- MVP com funcionalidades essenciais
+- Beta gratuito para 50-100 professores
+- Coleta de feedback e ajustes
+
+#### **📈 Fase 2: Tração (6-18 meses)**
+- Lançamento oficial B2C
+- Plano freemium + premium
+- Marketing de conteúdo e parcerias
+
+#### **🏆 Fase 3: Escala (18+ meses)**
+- Expansão para modelo B2B
+- Integração com plataformas educacionais
+- Funcionalidades avançadas de IA
+
+### **📊 Análise de LTV (Lifetime Value)**
+
+**Projeções com churn de 5% mensal:**
+- **Tempo médio de vida:** 20 meses
+- **LTV por professor:** R$ 300
+- **CAC máximo recomendado:** R$ 75 (25% do LTV)
+
 ## **🎮 Como funciona?**
 
 ### **Para Educadores (BoazHub):**
