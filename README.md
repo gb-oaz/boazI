@@ -146,6 +146,24 @@ A **Boaz** é uma plataforma educacional completa que combina duas soluções po
 4. **Compete** com outros participantes no ranking
 5. **Acompanhe** seu progresso e conquistas
 
+### **Para Escolas (Licença Institucional - B2B):**
+1. **Contrate** o plano institucional personalizado para sua escola
+2. **Receba** credenciais administrativas e acesso multiusuário
+3. **Cadastre** professores e turmas no painel de gestão
+4. **Configure** permissões e políticas de uso institucional
+5. **Monitore** relatórios consolidados de toda a instituição
+6. **Acesse** suporte técnico prioritário e treinamentos
+7. **Customize** a plataforma com a identidade visual da escola
+
+### **Para Empresas (Treinamento Corporativo - B2B):**
+1. **Solicite** uma demonstração personalizada para sua empresa
+2. **Customize** a plataforma com a identidade visual corporativa
+3. **Implemente** programas de treinamento e capacitação
+4. **Organize** competições entre equipes e departamentos
+5. **Acompanhe** métricas de engajamento e performance dos colaboradores
+6. **Exporte** relatórios para compliance e avaliação de RH
+7. **Escale** para múltiplas filiais com gestão centralizada
+
 ## **✨ Benefícios da Plataforma**
 - **🎯 Interatividade:** Experiência dinâmica e envolvente
 - **📱 Multiplataforma:** Funciona em computadores, tablets e smartphones
