@@ -130,6 +130,188 @@ A **Boaz** é uma plataforma educacional completa que combina duas soluções po
 - **LTV por professor:** R$ 300
 - **CAC máximo recomendado:** R$ 75 (25% do LTV)
 
+## **☁️ Estimativa de Custos de Infraestrutura - GKE**
+
+### **🌎 Regiões Disponíveis no Brasil**
+
+**Principais regiões Google Cloud no Brasil:**
+- **São Paulo (southamerica-east1)** - Região principal
+- **Santiago (southamerica-west1)** - Região secundária recomendada
+
+### **💰 Estrutura de Custos GKE Autopilot**
+
+#### **Custos Base do Cluster:**
+- **Taxa de Gerenciamento:** $0.10/hora por cluster
+- **Custo mensal por cluster:** ~$73.00 USD (~R$ 365.00)
+
+#### **Custos de Recursos por Pod (São Paulo):**
+
+| Recurso | Preço Regular (USD/hora) | Preço Spot (USD/hora) | CUD 1 ano (USD/hora) | CUD 3 anos (USD/hora) |
+|---------|-------------------------|----------------------|---------------------|----------------------|
+| **vCPU** | $0.0515/1000 | $0.0155/1000 | $0.0412/1000 | $0.028325/1000 |
+| **Memória (GB)** | $0.0057/GB | $0.0017/GB | $0.0046/GB | $0.0031/GB |
+| **Storage (GB)** | $0.0000635/GB | - | $0.0000508/GB | $0.0000349/GB |
+
+### **📊 Cenários de Uso e Estimativas**
+
+#### **🔧 Arquitetura Boaz - Flexibilidade de Deploy**
+
+### **Opção A: Arquitetura Monolítica (ms_mono apenas)**
+**Recomendado para MVP e crescimento inicial**
+
+- **ms_mono (Monolito):** 2 vCPU, 4GB RAM
+- **BoazHub:** 0.5 vCPU, 1GB RAM
+- **BoazQuest:** 0.5 vCPU, 1GB RAM
+- **MongoDB:** 1 vCPU, 2GB RAM
+- **Redis:** 0.5 vCPU, 1GB RAM
+
+**Total Monolítico:** 4.5 vCPU, 9GB RAM, 50GB Storage
+
+### **Opção B: Arquitetura Microserviços Completa**
+**Para alta escala e times distribuídos**
+
+**Backend Distribuído:**
+- **ms_auth:** 0.5 vCPU, 1GB RAM
+- **ms_user:** 0.5 vCPU, 1GB RAM  
+- **ms_quiz:** 1 vCPU, 2GB RAM
+- **ms_live:** 1 vCPU, 2GB RAM
+- **ms_mono (Gateway):** 1 vCPU, 2GB RAM
+
+**Frontend Applications:**
+- **BoazHub:** 0.5 vCPU, 1GB RAM
+- **BoazQuest:** 0.5 vCPU, 1GB RAM
+
+**Base de Dados e Cache:**
+- **MongoDB:** 2 vCPU, 4GB RAM
+- **Redis:** 0.5 vCPU, 1GB RAM
+
+**Total Microserviços:** 7.5 vCPU, 15GB RAM, 100GB Storage
+
+#### **💸 Cenário 1: MVP Monolítico (ms_mono + HPA)**
+
+| Configuração | Regular (USD/mês) | Spot (USD/mês) | CUD 1 ano (USD/mês) | Em Reais (R$/mês)* |
+|--------------|------------------|----------------|--------------------|--------------------|
+| **1 Cluster** | $73 | $73 | $73 | R$ 365 |
+| **Recursos (4.5 vCPU, 9GB)** | $167 | $50 | $133 | R$ 665 |
+| **TOTAL** | **$240** | **$123** | **$206** | **R$ 1.030** |
+
+*Ideal para validação inicial e até 5.000 usuários*
+
+#### **💸 Cenário 2: Monolítico Escalado (ms_mono com 3-5 pods)**
+
+| Configuração | Regular (USD/mês) | Spot (USD/mês) | CUD 1 ano (USD/mês) | Em Reais (R$/mês)* |
+|--------------|------------------|----------------|--------------------|--------------------|
+| **1 Cluster** | $73 | $73 | $73 | R$ 365 |
+| **Recursos (18 vCPU, 36GB)** | $668 | $201 | $533 | R$ 2.665 |
+| **TOTAL** | **$741** | **$274** | **$606** | **R$ 3.030** |
+
+*Recomendado para 5.000 a 25.000 usuários*
+
+#### **💸 Cenário 3: Arquitetura Microserviços (Distribuída)**
+
+| Configuração | Regular (USD/mês) | Spot (USD/mês) | CUD 1 ano (USD/mês) | Em Reais (R$/mês)* |
+|--------------|------------------|----------------|--------------------|--------------------|
+| **1 Cluster** | $73 | $73 | $73 | R$ 365 |
+| **Recursos (7.5 vCPU, 15GB)** | $279 | $84 | $223 | R$ 1.115 |
+| **TOTAL** | **$352** | **$157** | **$296** | **R$ 1.480** |
+
+*Para times distribuídos e alta complexidade (25.000+ usuários)*
+
+#### **💸 Cenário 4: Microserviços Escalados (2-3 pods por serviço)**
+
+| Configuração | Regular (USD/mês) | Spot (USD/mês) | CUD 1 ano (USD/mês) | Em Reais (R$/mês)* |
+|--------------|------------------|----------------|--------------------|--------------------|
+| **1 Cluster** | $73 | $73 | $73 | R$ 365 |
+| **Recursos (20 vCPU, 40GB)** | $745 | $225 | $595 | R$ 2.975 |
+| **TOTAL** | **$818** | **$298** | **$668** | **R$ 3.340** |
+
+*Para alta demanda em arquitetura distribuída (50.000+ usuários)*
+
+#### **💸 Cenário 5: Multi-Região (Alta Disponibilidade)**
+
+| Configuração | Regular (USD/mês) | Spot (USD/mês) | CUD 1 ano (USD/mês) | Em Reais (R$/mês)* |
+|--------------|------------------|----------------|--------------------|--------------------|
+| **2 Clusters** | $146 | $146 | $146 | R$ 730 |
+| **SP + Santiago (18 vCPU, 36GB)** | $1.336 | $402 | $1.066 | R$ 5.330 |
+| **TOTAL** | **$1.482** | **$548** | **$1.212** | **R$ 6.060** |
+
+*Para disponibilidade 99.99%+ e disaster recovery*
+
+### **📈 Projeção de Crescimento de Custos**
+
+| Usuários Ativos | Arquitetura Recomendada | Custo Mensal (CUD 1 ano) | Custo Anual |
+|-----------------|-------------------------|--------------------------|-------------|
+| **1.000** | MVP Monolítico (1 pod) | $206 (~R$ 1.030) | R$ 12.360 |
+| **5.000** | Monolítico (2-3 pods) | $400 (~R$ 2.000) | R$ 24.000 |
+| **15.000** | Monolítico (4-5 pods) | $606 (~R$ 3.030) | R$ 36.360 |
+| **25.000** | Microserviços (inicio) | $296 (~R$ 1.480) | R$ 17.760 |
+| **50.000** | Microserviços (escalado) | $668 (~R$ 3.340) | R$ 40.080 |
+| **100.000+** | Multi-região | $1.212 (~R$ 6.060) | R$ 72.720 |
+
+### **💡 Recomendações de Otimização**
+
+#### **🎯 Estratégias de Redução de Custos:**
+
+1. **Committed Use Discounts (CUD):**
+   - **Desconto de 20-28%** com compromisso de 1-3 anos
+   - Ideal para cargas de trabalho previsíveis
+
+2. **Instances Spot:**
+   - **Desconto de 60-70%** para workloads não-críticos
+   - Recomendado para ambientes de dev/test
+
+3. **Horizontal Pod Autoscaler (HPA):**
+   - Escalonamento automático baseado em demanda
+   - Redução de custos em períodos de baixo uso
+
+4. **Resource Optimization:**
+   - Monitoramento contínuo de uso de CPU/memória
+   - Ajuste fino dos resource requests
+
+5. **Arquitetura Monolítica com HPA (ms_mono):**
+   - **Redução de 60% nos custos** comparado a microserviços
+   - **Simplicidade operacional:** Menos pods para gerenciar
+   - **HPA inteligente:** Escalabilidade automática baseada em demanda
+   - **Ideal para MVP:** Validação rápida com menor investimento
+   - **Transição suave:** Migração para microserviços quando necessário
+
+#### **🚀 Plano de Crescimento Progressivo:**
+
+**Fase 1 (MVP - até 5K usuários):** 
+- Arquitetura Monolítica com HPA
+- Custo: R$ 1.030 - R$ 2.000/mês
+- **Vantagem:** Simplicidade operacional, menor custo
+
+**Fase 2 (5K-15K usuários):** 
+- Monolítico escalado (3-5 pods ms_mono)
+- Custo: R$ 3.030/mês
+- **Vantagem:** Escalabilidade com HPA automático
+
+**Fase 3 (15K-25K usuários):** 
+- **Decisão arquitetural:** Manter monolítico ou migrar para microserviços
+- Monolítico: R$ 3.030/mês | Microserviços: R$ 1.480/mês
+- **Vantagem Microserviços:** Times independentes, deploy isolado
+
+**Fase 4 (50K+ usuários):** 
+- Microserviços escalados ou Multi-região
+- Custo: R$ 3.340 - R$ 6.060/mês
+- **Vantagem:** Alta disponibilidade e disaster recovery
+
+### **📋 Custos Adicionais a Considerar**
+
+- **Networking:** ~$50-200/mês (dados de saída)
+- **Monitoring:** ~$20-100/mês (Cloud Operations)
+- **Backup/Storage:** ~$30-150/mês
+- **Load Balancer:** ~$25/mês por LB
+- **CDN:** ~$10-100/mês dependendo do tráfego
+
+**\* Conversão USD para BRL considerando taxa de 1 USD = 5,00 BRL (sujeita a variação)**
+
+### **🔗 Ferramentas de Cálculo**
+
+- **[Google Cloud Pricing Calculator](https://cloud.google.com/products/calculator)**
+- **[GKE Cost Optimization Guide](https://cloud.google.com/kubernetes-engine/docs/how-to/cost-optimization)**
+
 ## **🎮 Como funciona?**
 
 ### **Para Educadores (BoazHub):**
