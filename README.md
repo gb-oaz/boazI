@@ -2,14 +2,15 @@
   <img src=".assets/logo/by_gw.png" alt="Logo Boaz" style="width: 30%; height: auto;">
 </div>
 
-# **Boaz - Plataforma Educacional Interativa**
+# **B-oaz - Plataforma Educacional Interativa**
 
 > **"Na força do conhecimento, a sabedoria floresce"**
 
-A **Boaz** é uma plataforma educacional completa que combina duas soluções poderosas: **bHub** (central de administração) e **bQuest** (aplicativo de quiz interativo). Inspirada em plataformas como Kahoot e Quizizz, oferece uma experiência gamificada que torna o aprendizado dinâmico e envolvente.
+A **B-oaz** é uma plataforma educacional completa que combina duas soluções poderosas: **bHub** (central de administração) e **bQuest** (aplicativo de quiz interativo). Inspirada em plataformas como Kahoot e Quizizz, oferece uma experiência gamificada que torna o aprendizado dinâmico e envolvente.
+
+<br>
 
 ## **🌐 Nossas Aplicações**
-
 
 ### **⚙️ BoazHub** - *Central de comando educacional*
 - **URL:** [`https://hub.boaz.app`](https://hub.boaz.app)
@@ -29,13 +30,17 @@ A **Boaz** é uma plataforma educacional completa que combina duas soluções po
   - Interface intuitiva e responsiva
   - Sistema de ranking e recompensas
 
+<br>
+
 ## **🚀 O que é a Plataforma Boaz?**
 - **Ecossistema educacional completo** com duas aplicações integradas
 - **Gamificação educacional** que transforma aprendizado em diversão
 - **Tecnologia de ponta** com arquitetura de microsserviços
 - **Experiência multiplataforma** acessível em qualquer dispositivo
 
-## **Para que serve?**
+<br>
+
+## **🎯 Para que serve?**
 - **Para escolas:**
   - Oferecer ferramenta de ponta para professores.
   - Oferecer qualidade de conteúdo avaliativo para estudantes.
@@ -49,9 +54,10 @@ A **Boaz** é uma plataforma educacional completa que combina duas soluções po
   - Aplicar treinamentos interativos.
   - Realizar dinâmicas de equipe com quizzes personalizados.
 
-## **💰 Estudo de Valor de Mercado**
+<details>
+<summary>💰 <strong>Análise de Mercado e Estratégia de Negócio</strong></summary>
 
-### **📊 Panorama Educacional Brasileiro**
+## **📊 Panorama Educacional Brasileiro**
 
 **Escolas no Brasil:** 181.939 instituições (públicas e privadas)
 - **Escolas Públicas:** 138.573 (76,2%)
@@ -67,13 +73,13 @@ A **Boaz** é uma plataforma educacional completa que combina duas soluções po
 **Corpo docente em escolas privadas:** 807.286 professores
 - **Média de professores por escola privada:** 18,6 professores
 
-### **🎯 Estratégia de Precificação**
+## **🎯 Estratégia de Precificação**
 
 **Modelo de Assinatura Proposto:**
 - **Mensal:** R$ 15,00/mês
 - **Anual:** R$ 160,00/ano (desconto de 2 meses)
 
-### **📈 Projeções de Faturamento - Meta: R$ 8 milhões**
+## **📈 Projeções de Faturamento - Meta: R$ 8 milhões**
 
 | Assinantes/Professores | 1 ano | 2 anos | 3 anos | 4 anos | 5 anos |
 |------------------------|-------|--------|--------|--------|--------|
@@ -83,21 +89,21 @@ A **Boaz** é uma plataforma educacional completa que combina duas soluções po
 | **20.000 professores** | R$ 33,33/mês | R$ 16,67/mês | R$ 11,11/mês | R$ 8,33/mês | R$ 6,67/mês |
 | **50.000 professores** | R$ 13,33/mês | R$ 6,67/mês | R$ 4,44/mês | R$ 3,33/mês | R$ 2,67/mês |
 
-### **🎯 Modelos de Negócio**
+## **🎯 Modelos de Negócio**
 
-#### **👤 B2C (Business to Consumer)**
+### **👤 B2C (Business to Consumer)**
 - **Público:** Professores individuais
 - **Vantagem:** Ciclo de venda rápido, sem burocracia
 - **Ticket:** R$ 15/mês ou R$ 160/ano por professor
 - **Estratégia:** Marketing digital, conteúdo educacional gratuito
 
-#### **🏢 B2B (Business to Business)**
+### **🏢 B2B (Business to Business)**
 - **Público:** Escolas e instituições de ensino
 - **Vantagem:** Ticket médio maior, escala institucional
 - **Proposta:** Licença institucional por escola
 - **Exemplo:** R$ 300/mês para escolas com até 25 professores
 
-### **📊 Viabilidade de Mercado**
+## **📊 Viabilidade de Mercado**
 
 | Penetração de Mercado | Professores | Receita Mensal | Receita Anual |
 |----------------------|-------------|----------------|---------------|
@@ -106,45 +112,48 @@ A **Boaz** é uma plataforma educacional completa que combina duas soluções po
 | **2,5%** | 20.182 | R$ 302.730 | R$ 3.632.760 |
 | **5,0%** | 40.364 | R$ 605.460 | R$ 7.265.520 |
 
-### **💡 Estratégias de Crescimento**
+## **💡 Estratégias de Crescimento**
 
-#### **🚀 Fase 1: Validação (0-6 meses)**
+### **🚀 Fase 1: Validação (0-6 meses)**
 - MVP com funcionalidades essenciais
 - Beta gratuito para 50-100 professores
 - Coleta de feedback e ajustes
 
-#### **📈 Fase 2: Tração (6-18 meses)**
+### **📈 Fase 2: Tração (6-18 meses)**
 - Lançamento oficial B2C
 - Plano freemium + premium
 - Marketing de conteúdo e parcerias
 
-#### **🏆 Fase 3: Escala (18+ meses)**
+### **🏆 Fase 3: Escala (18+ meses)**
 - Expansão para modelo B2B
 - Integração com plataformas educacionais
 - Funcionalidades avançadas de IA
 
-### **📊 Análise de LTV (Lifetime Value)**
+## **📊 Análise de LTV (Lifetime Value)**
 
 **Projeções com churn de 5% mensal:**
 - **Tempo médio de vida:** 20 meses
 - **LTV por professor:** R$ 300
 - **CAC máximo recomendado:** R$ 75 (25% do LTV)
 
-## **☁️ Estimativa de Custos de Infraestrutura - GKE**
+</details>
 
-### **🌎 Regiões Disponíveis no Brasil**
+<details>
+<summary>☁️ <strong>Infraestrutura e Custos - Google Kubernetes Engine</strong></summary>
+
+## **🌎 Regiões Disponíveis no Brasil**
 
 **Principais regiões Google Cloud no Brasil:**
 - **São Paulo (southamerica-east1)** - Região principal
 - **Santiago (southamerica-west1)** - Região secundária recomendada
 
-### **💰 Estrutura de Custos GKE Autopilot**
+## **💰 Estrutura de Custos GKE Autopilot**
 
-#### **Custos Base do Cluster:**
+### **Custos Base do Cluster:**
 - **Taxa de Gerenciamento:** $0.10/hora por cluster
 - **Custo mensal por cluster:** ~$73.00 USD (~R$ 365.00)
 
-#### **Custos de Recursos por Pod (São Paulo):**
+### **Custos de Recursos por Pod (São Paulo):**
 
 | Recurso | Preço Regular (USD/hora) | Preço Spot (USD/hora) | CUD 1 ano (USD/hora) | CUD 3 anos (USD/hora) |
 |---------|-------------------------|----------------------|---------------------|----------------------|
@@ -152,9 +161,7 @@ A **Boaz** é uma plataforma educacional completa que combina duas soluções po
 | **Memória (GB)** | $0.0057/GB | $0.0017/GB | $0.0046/GB | $0.0031/GB |
 | **Storage (GB)** | $0.0000635/GB | - | $0.0000508/GB | $0.0000349/GB |
 
-### **📊 Cenários de Uso e Estimativas**
-
-#### **🔧 Arquitetura Boaz - Flexibilidade de Deploy**
+## **🔧 Arquitetura Boaz - Flexibilidade de Deploy**
 
 ### **Opção A: Arquitetura Monolítica (ms_mono apenas)**
 **Recomendado para MVP e crescimento inicial**
@@ -187,7 +194,9 @@ A **Boaz** é uma plataforma educacional completa que combina duas soluções po
 
 **Total Microserviços:** 7.5 vCPU, 15GB RAM, 100GB Storage
 
-#### **💸 Cenário 1: MVP Monolítico (ms_mono + HPA)**
+## **💸 Cenários de Uso e Estimativas**
+
+### **Cenário 1: MVP Monolítico (ms_mono + HPA)**
 
 | Configuração | Regular (USD/mês) | Spot (USD/mês) | CUD 1 ano (USD/mês) | Em Reais (R$/mês)* |
 |--------------|------------------|----------------|--------------------|--------------------|
@@ -197,7 +206,7 @@ A **Boaz** é uma plataforma educacional completa que combina duas soluções po
 
 *Ideal para validação inicial e até 5.000 usuários*
 
-#### **💸 Cenário 2: Monolítico Escalado (ms_mono com 3-5 pods)**
+### **Cenário 2: Monolítico Escalado (ms_mono com 3-5 pods)**
 
 | Configuração | Regular (USD/mês) | Spot (USD/mês) | CUD 1 ano (USD/mês) | Em Reais (R$/mês)* |
 |--------------|------------------|----------------|--------------------|--------------------|
@@ -207,7 +216,7 @@ A **Boaz** é uma plataforma educacional completa que combina duas soluções po
 
 *Recomendado para 5.000 a 25.000 usuários*
 
-#### **💸 Cenário 3: Arquitetura Microserviços (Distribuída)**
+### **Cenário 3: Arquitetura Microserviços (Distribuída)**
 
 | Configuração | Regular (USD/mês) | Spot (USD/mês) | CUD 1 ano (USD/mês) | Em Reais (R$/mês)* |
 |--------------|------------------|----------------|--------------------|--------------------|
@@ -217,7 +226,7 @@ A **Boaz** é uma plataforma educacional completa que combina duas soluções po
 
 *Para times distribuídos e alta complexidade (25.000+ usuários)*
 
-#### **💸 Cenário 4: Microserviços Escalados (2-3 pods por serviço)**
+### **Cenário 4: Microserviços Escalados (2-3 pods por serviço)**
 
 | Configuração | Regular (USD/mês) | Spot (USD/mês) | CUD 1 ano (USD/mês) | Em Reais (R$/mês)* |
 |--------------|------------------|----------------|--------------------|--------------------|
@@ -227,7 +236,7 @@ A **Boaz** é uma plataforma educacional completa que combina duas soluções po
 
 *Para alta demanda em arquitetura distribuída (50.000+ usuários)*
 
-#### **💸 Cenário 5: Multi-Região (Alta Disponibilidade)**
+### **Cenário 5: Multi-Região (Alta Disponibilidade)**
 
 | Configuração | Regular (USD/mês) | Spot (USD/mês) | CUD 1 ano (USD/mês) | Em Reais (R$/mês)* |
 |--------------|------------------|----------------|--------------------|--------------------|
@@ -237,7 +246,7 @@ A **Boaz** é uma plataforma educacional completa que combina duas soluções po
 
 *Para disponibilidade 99.99%+ e disaster recovery*
 
-### **📈 Projeção de Crescimento de Custos**
+## **📈 Projeção de Crescimento de Custos**
 
 | Usuários Ativos | Arquitetura Recomendada | Custo Mensal (CUD 1 ano) | Custo Anual |
 |-----------------|-------------------------|--------------------------|-------------|
@@ -248,8 +257,7 @@ A **Boaz** é uma plataforma educacional completa que combina duas soluções po
 | **50.000** | Microserviços (escalado) | $668 (~R$ 3.340) | R$ 40.080 |
 | **100.000+** | Multi-região | $1.212 (~R$ 6.060) | R$ 72.720 |
 
-
-### **🚀 Plano de Crescimento Progressivo:**
+## **🚀 Plano de Crescimento Progressivo**
 
 **Fase 1 (MVP - até 5K usuários):** 
 - Arquitetura Monolítica com HPA
@@ -271,7 +279,7 @@ A **Boaz** é uma plataforma educacional completa que combina duas soluções po
 - Custo: R$ 3.340 - R$ 6.060/mês
 - **Vantagem:** Alta disponibilidade e disaster recovery
 
-### **📋 Custos Adicionais a Considerar**
+## **📋 Custos Adicionais a Considerar**
 
 - **Networking:** ~$50-200/mês (dados de saída)
 - **Monitoring:** ~$20-100/mês (Cloud Operations)
@@ -281,28 +289,31 @@ A **Boaz** é uma plataforma educacional completa que combina duas soluções po
 
 **\* Conversão USD para BRL considerando taxa de 1 USD = 5,00 BRL (sujeita a variação)**
 
-### **🔗 Ferramentas de Cálculo**
+## **🔗 Ferramentas de Cálculo**
 
 - **[Google Cloud Pricing Calculator](https://cloud.google.com/products/calculator)**
 - **[GKE Cost Optimization Guide](https://cloud.google.com/kubernetes-engine/docs/how-to/cost-optimization)**
 
-## **🎮 Como funciona?**
+</details>
 
-### **Para Educadores (BoazHub):**
+<details>
+<summary>🎮 <strong>Como funciona a Plataforma?</strong></summary>
+
+## **Para Educadores (BoazHub):**
 1. **Acesse** [`hub.boaz.app`](https://hub.boaz.app) e faça login
 2. **Crie** quizzes personalizados com diferentes tipos de questões
 3. **Configure** salas virtuais e códigos de acesso
 4. **Monitore** o progresso em tempo real
 5. **Analise** relatórios detalhados de desempenho
 
-### **Para Estudantes (BoazQuest):**
+## **Para Estudantes (BoazQuest):**
 1. **Acesse** [`quest.boaz.app`](https://quest.boaz.app)
 2. **Insira** o código da sala fornecido pelo educador
 3. **Participe** do quiz em tempo real ou modo assíncrono
 4. **Compete** com outros participantes no ranking
 5. **Acompanhe** seu progresso e conquistas
 
-### **Para Escolas (Licença Institucional - B2B):**
+## **Para Escolas (Licença Institucional - B2B):**
 1. **Contrate** o plano institucional personalizado para sua escola
 2. **Receba** credenciais administrativas e acesso multiusuário
 3. **Cadastre** professores e turmas no painel de gestão
@@ -311,7 +322,7 @@ A **Boaz** é uma plataforma educacional completa que combina duas soluções po
 6. **Acesse** suporte técnico prioritário e treinamentos
 7. **Customize** a plataforma com a identidade visual da escola
 
-### **Para Empresas (Treinamento Corporativo - B2B):**
+## **Para Empresas (Treinamento Corporativo - B2B):**
 1. **Solicite** uma demonstração personalizada para sua empresa
 2. **Customize** a plataforma com a identidade visual corporativa
 3. **Implemente** programas de treinamento e capacitação
@@ -319,6 +330,10 @@ A **Boaz** é uma plataforma educacional completa que combina duas soluções po
 5. **Acompanhe** métricas de engajamento e performance dos colaboradores
 6. **Exporte** relatórios para compliance e avaliação de RH
 7. **Escale** para múltiplas filiais com gestão centralizada
+
+</details>
+
+<br>
 
 ## **✨ Benefícios da Plataforma**
 - **🎯 Interatividade:** Experiência dinâmica e envolvente
@@ -328,6 +343,8 @@ A **Boaz** é uma plataforma educacional completa que combina duas soluções po
 - **🚀 Escalabilidade:** Suporta desde pequenas turmas até grandes eventos
 - **🔒 Segurança:** Dados protegidos e ambiente seguro
 - **⚡ Performance:** Respostas em tempo real com baixa latência
+
+<br>
 
 ## **🏗️ Arquitetura da Solução**
 
@@ -348,6 +365,8 @@ A plataforma Boaz utiliza uma arquitetura moderna de microsserviços:
 | **BoazQuest** | [`https://quest.boaz.app`](https://quest.boaz.app) | Aplicativo de quiz |
 | **API Gateway** | [`https://api.boaz.app`](https://api.boaz.app) | Endpoints da API |
 
+<br>
+
 ## **👨‍💻 Equipe de Desenvolvimento**
 Projeto desenvolvido no **GBoaZ**.
 
@@ -357,46 +376,51 @@ Projeto desenvolvido no **GBoaZ**.
 - 🎓 Estudante de Engenharia da Computação - Univesp
 - 💼 Desenvolvedor Full-Stack com foco em soluções educacionais
 
-## **🛠️ Stack Tecnológico**
+<details>
+<summary>🛠️ <strong>Stack Tecnológico</strong></summary>
 
-### **💻 Sistemas Operacionais**
+## **💻 Sistemas Operacionais**
 ![Linux](https://img.shields.io/badge/Linux--orange?style=for-the-badge)
 ![Windows](https://img.shields.io/badge/Windows--brown?style=for-the-badge)
 
-### **🔧 DevOps & Infraestrutura**
+## **🔧 DevOps & Infraestrutura**
 ![Git](https://img.shields.io/badge/Git--purple?style=for-the-badge)
 ![Docker](https://img.shields.io/badge/Docker--blue?style=for-the-badge)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes--aqua?style=for-the-badge)
 ![Shell](https://img.shields.io/badge/Shell--magenta?style=for-the-badge)
 
-### **☕ Backend**
+## **☕ Backend**
 ![Java](https://img.shields.io/badge/Java_21--red?style=for-the-badge)
 ![Spring_Boot](https://img.shields.io/badge/Spring_Boot--green?style=for-the-badge)
 ![Maven](https://img.shields.io/badge/Maven--blue?style=for-the-badge)
 ![MongoDB](https://img.shields.io/badge/MongoDB--green?style=for-the-badge)
 
-### **🌐 Frontend**
+## **🌐 Frontend**
 ![Vue.js](https://img.shields.io/badge/Vue.js--lime?style=for-the-badge)
 ![TypeScript](https://img.shields.io/badge/TypeScript--navy?style=for-the-badge)
 ![JavaScript](https://img.shields.io/badge/JavaScript--coral?style=for-the-badge)
 ![Quasar](https://img.shields.io/badge/Quasar--blue?style=for-the-badge)
 
-### **🧪 Qualidade & Testes**
+## **🧪 Qualidade & Testes**
 ![Cypress](https://img.shields.io/badge/Cypress--brown?style=for-the-badge)
 ![TDD](https://img.shields.io/badge/TDD--teal?style=for-the-badge)
 ![BDD](https://img.shields.io/badge/BDD--crimson?style=for-the-badge)
 
-### **📐 Metodologias & Padrões**
+## **📐 Metodologias & Padrões**
 ![Clean_Architecture](https://img.shields.io/badge/Clean_Architecture--pink?style=for-the-badge)
 ![Design_Patterns](https://img.shields.io/badge/Design_Patterns--violet?style=for-the-badge)
 ![Clean_Code](https://img.shields.io/badge/Clean_Code--yellow?style=for-the-badge)
 ![Microservices](https://img.shields.io/badge/Microservices--orange?style=for-the-badge)
 
-### **📝 Documentação**
+## **📝 Documentação**
 ![UML](https://img.shields.io/badge/UML--white?style=for-the-badge)
 ![Markdown](https://img.shields.io/badge/Markdown--black?style=for-the-badge)
 ![Gherkin](https://img.shields.io/badge/Gherkin--green?style=for-the-badge)
 ![OpenAPI](https://img.shields.io/badge/OpenAPI--blue?style=for-the-badge)
+
+</details>
+
+<br>
 
 ## **🚀 Quick Start**
 
@@ -410,8 +434,8 @@ Projeto desenvolvido no **GBoaZ**.
 
 ```bash
 # Clone o repositório
-git clone https://github.com/GustavoBoaz/pi.git
-cd pi
+git clone git@github.com:gb-oaz/boaz.git
+cd boaz
 
 # Executar com Docker Compose (Recomendado)
 docker-compose up -d
@@ -425,25 +449,30 @@ cd frontend && yarn install && yarn dev
 ```
 
 ### **🌐 Acessar as Aplicações**
-- **BoazHub:** http://localhost:3000 (Admin Panel)
-- **BoazQuest:** http://localhost:3001 (Quiz App)
-- **API Docs:** http://localhost:8000/docs/swagger-ui.html
+- **B-oaz:** http://localhost:3000 (Landinpage)
+- **BHub:** http://localhost:3001 (Admin Panel)
+- **BQuest:** http://localhost:3002 (Quiz App)
+- **API Docs Monolito:**
+  - **ms_mono**: http://localhost:8000/docs/swagger-ui.html
+- **API Docs Micro serviços:**
+  - **ms_auth**: http://localhost:8001/docs/swagger-ui.html
+  - **ms_user**: http://localhost:8002/docs/swagger-ui.html
+  - **ms_quiz**: http://localhost:8003/docs/swagger-ui.html
+  - **ms_live**: http://localhost:8004/docs/swagger-ui.html
 
----
+<br>
 
 ## **📊 Arquitetura e Diagramas**
+
 <details>                                                                          
     <summary>🛠 Visualizar Diagramas</summary>
 
 ### **🏗️ Diagrama de Arquitetura**
 
 
-### **🔄 Fluxo de Quiz em Tempo Real**
-
-
 </details>
 
----
+<br>
 
 ## **⚙️ Detalhes Técnicos**
 <details>
@@ -613,14 +642,16 @@ docker stats
 
 </details>
 
----
+<br>
 
 ## **📄 Licença**
 Este projeto é desenvolvido para fins comerciais no âmbito da **Educação**. 
 
 **Uso Educacional:** ✅ Permitido  
-**Uso Comercial:** ✅ Restrito  
+**Uso Comercial:** ✅ Permitido  
 **Contribuições:** 🤝 Bem-vindas
+
+<br>
 
 ---
 
