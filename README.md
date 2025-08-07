@@ -6,13 +6,22 @@
 
 > **"Na força do conhecimento, a sabedoria floresce"**
 
-A **B-oaz** é uma plataforma educacional completa que combina duas soluções poderosas: **bHub** (central de administração) e **bQuest** (aplicativo de quiz interativo). Inspirada em plataformas como Kahoot e Quizizz, oferece uma experiência gamificada que torna o aprendizado dinâmico e envolvente.
+A **B-oaz** é uma plataforma educacional completa que combina duas soluções poderosas: **B-hub** (central de administração) e **B-quest** (aplicativo de quiz interativo). Inspirada em plataformas como Kahoot e Quizizz, oferece uma experiência gamificada que torna o aprendizado dinâmico e envolvente.
 
 <br>
 
 ## **🌐 Nossas Aplicações**
 
-### **⚙️ BoazHub** - *Central de comando educacional*
+### **🌟 B-oaz** - *Landing page principal*
+- **URL:** [`https://boaz.app`](https://boaz.app)
+- **Função:** Site institucional e ponto de entrada da plataforma
+- **Características:**
+  - Apresentação da plataforma educacional
+  - Informações sobre produtos e soluções
+  - Portal de acesso às aplicações
+  - Recursos para contato e suporte
+
+### **⚙️ B-hub** - *Central de comando educacional*
 - **URL:** [`https://hub.boaz.app`](https://hub.boaz.app)
 - **Função:** Painel administrativo para educadores
 - **Características:**
@@ -21,7 +30,7 @@ A **B-oaz** é uma plataforma educacional completa que combina duas soluções p
   - Gestão de usuários e grupos
   - Configurações avançadas da plataforma
 
-### **🎯 BoazQuest** - *Seu desafio de conhecimento!*
+### **🎯 B-quest** - *Seu desafio de conhecimento!*
 - **URL:** [`https://quest.boaz.app`](https://quest.boaz.app)
 - **Função:** Aplicativo principal de quiz interativo
 - **Características:**
@@ -32,7 +41,7 @@ A **B-oaz** é uma plataforma educacional completa que combina duas soluções p
 
 <br>
 
-## **🚀 O que é a Plataforma Boaz?**
+## **🚀 O que é a Plataforma B-oaz?**
 - **Ecossistema educacional completo** com duas aplicações integradas
 - **Gamificação educacional** que transforma aprendizado em diversão
 - **Tecnologia de ponta** com arquitetura de microsserviços
@@ -167,8 +176,8 @@ A **B-oaz** é uma plataforma educacional completa que combina duas soluções p
 **Recomendado para MVP e crescimento inicial**
 
 - **ms_mono (Monolito):** 2 vCPU, 4GB RAM
-- **BoazHub:** 0.5 vCPU, 1GB RAM
-- **BoazQuest:** 0.5 vCPU, 1GB RAM
+- **B-hub:** 0.5 vCPU, 1GB RAM
+- **B-quest:** 0.5 vCPU, 1GB RAM
 - **MongoDB:** 1 vCPU, 2GB RAM
 - **Redis:** 0.5 vCPU, 1GB RAM
 
@@ -185,8 +194,8 @@ A **B-oaz** é uma plataforma educacional completa que combina duas soluções p
 - **ms_mono (Gateway):** 1 vCPU, 2GB RAM
 
 **Frontend Applications:**
-- **BoazHub:** 0.5 vCPU, 1GB RAM
-- **BoazQuest:** 0.5 vCPU, 1GB RAM
+- **B-hub:** 0.5 vCPU, 1GB RAM
+- **B-quest:** 0.5 vCPU, 1GB RAM
 
 **Base de Dados e Cache:**
 - **MongoDB:** 2 vCPU, 4GB RAM
@@ -299,14 +308,14 @@ A **B-oaz** é uma plataforma educacional completa que combina duas soluções p
 <details>
 <summary>🎮 <strong>Como funciona a Plataforma?</strong></summary>
 
-## **Para Educadores (BoazHub):**
+## **Para Educadores (B-hub):**
 1. **Acesse** [`hub.boaz.app`](https://hub.boaz.app) e faça login
 2. **Crie** quizzes personalizados com diferentes tipos de questões
 3. **Configure** salas virtuais e códigos de acesso
 4. **Monitore** o progresso em tempo real
 5. **Analise** relatórios detalhados de desempenho
 
-## **Para Estudantes (BoazQuest):**
+## **Para Estudantes (B-quest):**
 1. **Acesse** [`quest.boaz.app`](https://quest.boaz.app)
 2. **Insira** o código da sala fornecido pelo educador
 3. **Participe** do quiz em tempo real ou modo assíncrono
@@ -361,8 +370,8 @@ A plataforma Boaz utiliza uma arquitetura moderna de microsserviços:
 | Aplicação | URL | Descrição |
 |-----------|-----|-----------|
 | **Site Principal** | [`https://boaz.app`](https://boaz.app) | Landing page e informações |
-| **BoazHub** | [`https://hub.boaz.app`](https://hub.boaz.app) | Central administrativa |
-| **BoazQuest** | [`https://quest.boaz.app`](https://quest.boaz.app) | Aplicativo de quiz |
+| **B-hub** | [`https://hub.boaz.app`](https://hub.boaz.app) | Central administrativa |
+| **B-quest** | [`https://quest.boaz.app`](https://quest.boaz.app) | Aplicativo de quiz |
 | **API Gateway** | [`https://api.boaz.app`](https://api.boaz.app) | Endpoints da API |
 
 <br>
@@ -429,6 +438,7 @@ Projeto desenvolvido no **GBoaZ**.
 - Node.js 18+ & Yarn 📦
 - Docker & Docker Compose 🐳
 - MongoDB 🍃
+- Redis 🍪
 
 ### **⚡ Executar a Aplicação**
 
@@ -450,8 +460,8 @@ cd frontend && yarn install && yarn dev
 
 ### **🌐 Acessar as Aplicações**
 - **B-oaz:** http://localhost:3000 (Landinpage)
-- **BHub:** http://localhost:3001 (Admin Panel)
-- **BQuest:** http://localhost:3002 (Quiz App)
+- **B-hub:** http://localhost:3001 (Admin Panel)
+- **B-quest:** http://localhost:3002 (Quiz App)
 - **API Docs Monolito:**
   - **ms_mono**: http://localhost:8000/docs/swagger-ui.html
 - **API Docs Micro serviços:**
@@ -466,8 +476,6 @@ cd frontend && yarn install && yarn dev
 
 <details>                                                                          
     <summary>🛠 Visualizar Diagramas</summary>
-
-### **🏗️ Diagrama de Arquitetura**
 
 
 </details>
@@ -558,14 +566,17 @@ yarn start
 ### **🏗️ Estrutura do Frontend**
 ```
 frontend/
-├── shell_core/          # BoazQuest - App principal de quiz
+├── b_oaz_core/          # B-oaz - Página de apresentação
+├── b_hub_core/          # B-hub - Página de administração
+├── b_quest_core/        # B-quest - Página de quests
 ├── remote_common/       # Componentes compartilhados
 └── package.json         # Configuração do workspace
 ```
 
 ### **🚀 URLs de Desenvolvimento**
-- **BoazHub:** http://localhost:3000
-- **BoazQuest:** http://localhost:3001
+- **B-oaz:** http://localhost:3000
+- **B-hub:** http://localhost:3001
+- **B-quest:** http://localhost:3002
 
 </details>
 
@@ -603,8 +614,15 @@ backend/
 ```
 
 ### **🌐 Endpoints Principais**
-- **API Gateway:** http://localhost:8000
-- **Swagger UI:** http://localhost:8000/docs/swagger-ui.html
+- **API Docs Monolito:**
+  - **ms_mono**: http://localhost:8000
+- **API Docs Micro serviços:**
+  - **ms_auth**: http://localhost:8001
+  - **ms_user**: http://localhost:8002
+  - **ms_quiz**: http://localhost:8003
+  - **ms_live**: http://localhost:8004
+
+- **Swagger UI:** /docs/swagger-ui.html
 - **MongoDB:** localhost:27017
 
 </details>
