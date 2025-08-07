@@ -1,17 +1,19 @@
-# Processo de Desenvolvimento
+# 🔧 Documentação Backend - Boaz
 
 > 📋 **Índice do Documento**
-> - [🔄 Processo de Desenvolvimento](#processo-de-desenvolvimento)
-> - [📊 Processo de QA](#processo-de-qa)
-> - [🚀 Processo de Release](#processo-de-release)
-> - [🔧 Ferramentas e Automação](#ferramentas-e-automação)
-> - [📝 Templates e Checklists](#templates-e-checklists)
-> - [📈 Métricas e Monitoramento](#métricas-e-monitoramento)
+> - [🔄 Processo de Desenvolvimento](#-processo-de-desenvolvimento)
+> - [🧪 Pacote de Qualidade](#-pacote-de-qualidade)  
+> - [💻 Pacote de Desenvolvedor](#-pacote-de-desenvolvedor)
+> - [📝 Templates e Padrões](#-templates-e-padrões)
+
+<br>
 
 <details>
     <summary>🛠 Visualizar Processo Completo</summary>
 
 ![Processo](../.assets/proccess_dev_qa.png)
+
+<br>
 
 ## 🎯 Definição de Ready (DoR)
 
@@ -22,6 +24,8 @@ Antes de iniciar qualquer desenvolvimento, certifique-se que:
 - [ ] **Estimativa realizada** - Tempo e complexidade avaliados
 - [ ] **Ambiente preparado** - Branch, configurações e dependências prontas
 - [ ] **Testes planejados** - Cenários de teste documentados
+
+<br>
 
 ## 🎯 Definição de Done (DoD)
 
@@ -156,7 +160,21 @@ Uma tarefa só está completa quando:
 - Certifique-se de que toda a documentação (README, Gherkin, diagramas UML) esteja atualizada antes de criar a branch de release.
 - Comunique o release a todas as partes interessadas após a implantação.
 
-## 🔧 Ferramentas e Automação
+
+
+</details>
+
+<br>
+<br>
+
+# 📝 Templates e Padrões
+
+> 📋 **Objetivo:** Padronizar documentação, processos e checklists para garantir qualidade e consistência no desenvolvimento backend.
+
+<details>
+  <summary>🛠 Visualizar Templates Completos</summary>
+
+## 🔧 Ferramentas e Stack Backend
 
 ### 🔨 Stack de Desenvolvimento
 - **Linguagem:** Java 21
@@ -166,12 +184,16 @@ Uma tarefa só está completa quando:
 - **CI/CD:** GitHub Actions
 - **Qualidade:** SonarQube, Jacoco (cobertura de testes)
 
+<br>
+
 ### 🤖 Automação de Pipelines
 - **Build automatizado** no push/PR para branches principais
 - **Testes automatizados** (unitários, integração, aceitação)
 - **Análise de qualidade** com métricas automáticas
 - **Deploy automatizado** para staging e produção
 - **Notificações** em Slack/Teams para builds falhos
+
+<br>
 
 ### 📋 Ferramentas de Qualidade
 - **Testes unitários:** JUnit 5, Mockito
@@ -180,7 +202,9 @@ Uma tarefa só está completa quando:
 - **Cobertura mínima:** 80% para novos códigos
 - **Análise estática:** SpotBugs, PMD, Checkstyle
 
-## 📊 Processo de QA
+<br>
+
+## 📊 Processo de QA Backend
 
 ### 🎯 Estratégia de Testes
 1. **Pirâmide de Testes:**
@@ -193,6 +217,8 @@ Uma tarefa só está completa quando:
    - **Testes de Regressão** - Suite completa automatizada
    - **Testes de Performance** - Carga, stress e volume
    - **Testes de Segurança** - Vulnerabilidades e penetração
+
+<br>
 
 ### 🔍 Processo de Revisão de Código
 1. **Checklist obrigatório:**
@@ -208,6 +234,8 @@ Uma tarefa só está completa quando:
    - **Ideal:** 2 aprovações para mudanças críticas
    - **Obrigatório:** Aprovação de Tech Lead para mudanças arquiteturais
 
+<br>
+
 ### 🐛 Processo de Bug Fixing
 1. **Priorização:**
    - **P0 (Crítico):** Sistema fora do ar - Fix imediato
@@ -222,9 +250,11 @@ Uma tarefa só está completa quando:
    - Validação que o teste agora passa
    - Testes de regressão para garantir que nada quebrou
 
-## 📝 Templates e Checklists
+<br>
 
-### 📄 Template de User Story
+## 📄 Templates de Documentação
+
+### 📋 Template de User Story
 ```markdown
 ## 📋 [ID] - Título da User Story
 
@@ -260,6 +290,8 @@ Uma tarefa só está completa quando:
 - [ ] Compatibilidade: Chrome, Firefox, Safari
 ```
 
+<br>
+
 ### 🔄 Template de Pull Request
 ```markdown
 ## 📋 Descrição
@@ -292,6 +324,8 @@ Closes #[número da issue]
 [Adicionar screenshots da funcionalidade]
 ```
 
+<br>
+
 ### ✅ Checklist de Release
 ```markdown
 ## 🚀 Checklist de Release v[X.Y.Z]
@@ -322,6 +356,8 @@ Closes #[número da issue]
 - [ ] Retrospectiva de release agendada
 ```
 
+<br>
+
 ## 📈 Métricas e Monitoramento
 
 ### 📊 KPIs de Desenvolvimento
@@ -331,6 +367,8 @@ Closes #[número da issue]
 - **Code Coverage:** Percentual de código coberto por testes (meta: >80%)
 - **Technical Debt:** Tempo estimado para corrigir problemas identificados
 
+<br>
+
 ### 🔍 Métricas de Qualidade
 - **Bug Rate:** Bugs encontrados por funcionalidade entregue
 - **Defect Escape Rate:** Bugs que chegaram à produção
@@ -338,17 +376,23 @@ Closes #[número da issue]
 - **Code Review Coverage:** Percentual de código revisado
 - **First Time Right:** Percentual de deploys sem rollback
 
+<br>
+
 ### 🚀 Métricas de Performance
 - **Build Time:** Tempo de execução do pipeline de CI/CD
 - **Deployment Frequency:** Frequência de deploys em produção
 - **Mean Time to Recovery (MTTR):** Tempo médio para corrigir problemas
 - **Change Failure Rate:** Percentual de deploys que causaram problemas
 
+<br>
+
 ### 📱 Monitoramento de Sistema
 - **Application Performance Monitoring (APM):** New Relic/Datadog
 - **Log Management:** ELK Stack (Elasticsearch, Logstash, Kibana)
 - **Infrastructure Monitoring:** Prometheus + Grafana
 - **Alerting:** PagerDuty/OpsGenie para incidentes críticos
+
+<br>
 
 ### 📊 Dashboard de Métricas
 - **Business Metrics:** Usuários ativos, conversão, revenue
@@ -359,8 +403,7 @@ Closes #[número da issue]
 </details>
 
 <br>
-
----
+<br>
 
 # 🧪 Pacote de Qualidade
 
@@ -386,11 +429,10 @@ Closes #[número da issue]
 ├── 📂 ms_quiz/                 # Testes do microserviço de quiz
 ├── 📂 ms_live/                 # Testes do microserviço de lives
 ├── 📂 ms_mono/                 # Testes do microserviço monolítico
-├── 📂 ms_auth/                 # Testes do microserviço de autenticação
-└── 📂 integration/             # Testes de integração entre módulos
+└── 📂 ms_auth/                 # Testes do microserviço de autenticação
 ```
 
----
+<br>
 
 ## 🔧 core/ - *Módulo Base*
 
@@ -407,164 +449,26 @@ Closes #[número da issue]
 
 ### 🎯 Features Implementadas
 
-<details>
-  <summary>🛠 F0000001/Global_exception - 🔄 Em Desenvolvimento</summary>
 
-#### 📊 Status da Feature
-- 🔵 **Status:** Em Desenvolvimento
-- 👤 **Responsável QA:** [Nome do QA]
-- 📅 **Data Início:** [Data]
-- 🎯 **Sprint:** [Sprint Atual]
-- ⏱️ **Estimativa:** [X] horas
-
-#### 📋 Informações da Feature
-
-**📝 Descrição Resumida:**
-Sistema de exceções globais para padronizar tratamento de erros em todo o projeto.
-
-**🎯 Objetivo de Negócio:**
-Centralizar o tratamento de erros para melhorar debugging e experiência do usuário.
-
-**👥 Stakeholders:**
-- Desenvolvedores (facilita debugging)
-- Suporte (mensagens padronizadas)
-- Usuários finais (feedback claro de erros)
-
-#### 📋 Especificação Técnica
-
-**🔧 Componentes a Serem Testados:**
-- Classe `GlobalException` no pacote `com.pi.utils.exceptions`
-- Enum `ErrorCatalogEnum` no pacote `com.pi.utils.enums`
-
-**📐 Critérios de Aceitação:**
-- [ ] Exceção contém todos os campos obrigatórios (code, message, causes, action, trace)
-- [ ] Código de erro segue padrão 'C_GB_XXXXX'
-- [ ] Método `toJson()` retorna formato JSON válido
-- [ ] Método `toString()` retorna formato legível
-- [ ] Integração com `ErrorCatalogEnum` funciona corretamente
-
-**🧪 Cenários de Teste Principais:**
-1. **Criação de exceção** - Com todos os campos preenchidos
-2. **Serialização JSON** - Conversão para formato JSON
-3. **Serialização String** - Conversão para formato texto
-4. **Integração com enum** - Uso do catálogo de erros
-5. **Tratamento em camadas** - Captura em níveis superiores
-
-#### 🥒 Especificação Gherkin
-
-```gherkin
-Feature: F0000001/Global_Exception
-  """
-  Como desenvolvedor do sistema
-  Eu quero uma exceção global padronizada
-  Para que eu possa tratar erros de forma consistente em toda a aplicação
-  
-  Regras de Negócio:
-  - Toda exceção deve ter código único no padrão C_GB_XXXXX
-  - Mensagens devem ser claras para desenvolvedores e logs
-  - Campos obrigatórios: code, message, causes, action, trace
-  - Suporte a serialização JSON para APIs
-  - Integração com catálogo de erros centralizado
-  """
-
-  Background:
-    Given que o sistema de exceções globais está configurado
-    And o catálogo de erros está disponível
-
-  @smoke @critical
-  Scenario: Criação de exceção com todos os campos
-    Given que preciso lançar uma exceção do tipo "SISTEMA_INDISPONIVEL"
-    When eu crio uma GlobalException com o código "C_GB_00001"
-    Then a exceção deve conter o campo "code" com valor "C_GB_00001"
-    And a exceção deve conter o campo "message" preenchido
-    And a exceção deve conter o campo "causes" preenchido
-    And a exceção deve conter o campo "action" preenchido
-    And o campo "trace" deve estar disponível
-
-  @json @api
-  Scenario: Serialização para JSON
-    Given que tenho uma GlobalException criada
-    When eu chamo o método "toJson()"
-    Then deve retornar um JSON válido
-    And o JSON deve conter os campos "code", "message", "causes", "action", "trace"
-    And o formato deve estar correto para resposta de API
-
-  @logging @debug
-  Scenario: Serialização para String
-    Given que tenho uma GlobalException criada
-    When eu chamo o método "toString()"
-    Then deve retornar uma string formatada
-    And deve ser legível para logs
-    And deve conter todos os campos principais
-
-  @integration @enum
-  Scenario Outline: Integração com catálogo de erros
-    Given que existe um erro catalogado com código "<codigo>"
-    When eu crio uma GlobalException usando o ErrorCatalogEnum
-    Then a exceção deve ser criada automaticamente
-    And deve conter a mensagem padrão do catálogo
-    And deve ter as ações recomendadas preenchidas
-
-    Examples:
-      | codigo     | tipo_erro           |
-      | C_GB_00001 | SISTEMA_INDISPONIVEL|
-      | C_GB_00002 | DADOS_INVALIDOS     |
-      | C_GB_00003 | ACESSO_NEGADO       |
-
-  @error_handling @layers
-  Scenario: Captura em diferentes camadas
-    Given que uma exceção é lançada na camada de serviço
-    When a exceção é propagada para o controller
-    Then ela deve manter todas as informações originais
-    And deve ser possível adicionar contexto adicional
-    And o trace deve ser preservado
-```
-
-#### 🔬 Cenários de Teste Detalhados
-
-**🧪 Testes Unitários Relacionados:**
-- `GlobalExceptionTest.java` - Testes da classe principal
-- `ErrorCatalogEnumTest.java` - Testes do enum de catálogo
-- `ExceptionSerializationTest.java` - Testes de serialização
-
-**🔗 Testes de Integração:**
-- `GlobalExceptionIntegrationTest.java` - Integração com outros componentes
-- `ErrorHandlingE2ETest.java` - Fluxo completo de tratamento de erros
-
-**📊 Métricas de Qualidade:**
-- **Cobertura de Código:** 90% (meta)
-- **Cenários BDD:** 5 implementados
-- **Casos de Teste:** 15 total
-- **Tempo de Execução:** < 2s (todos os testes)
-
-#### 🔄 Histórico de Alterações
-
-| Data | Versão | Alteração | Responsável |
-|------|--------|-----------|-------------|
-| 2024-01-15 | 0.1 | Criação inicial da especificação | QA Lead |
-| 2024-01-16 | 0.2 | Adição de cenários de integração | QA Júnior |
-
-</details><br>
+<br>
 
 ### 📊 Métricas do Módulo Core
 
 | Métrica | Valor Atual | Meta | Status |
 |---------|-------------|------|--------|
-| **Cobertura de Testes** | 85% | 80% | ✅ |
-| **Scenarios BDD** | 5 | 8 | 🔄 |
-| **Tempo Execução** | 1.8s | < 3s | ✅ |
-| **Taxa de Sucesso** | 95% | 98% | 🔄 |
+| **Cobertura de Testes** | 85% | 0% | ✅ |
+| **Scenarios BDD** | 5 | 0 | 🔄 |
+| **Tempo Execução** | 1.8s | < 0s | ✅ |
+| **Taxa de Sucesso** | 95% | 0% | 🔄 |
 
 ### 📈 Versioning
 
 | Versão | Data | Descrição | Features |
 |:-------|:-----|:----------|:---------|
-| `00.01` | 2024-01-15 | Versão inicial | F0000001 |
-| `00.02` | - | Próxima versão | F0000002, F0000003 |
+| `00.02` | - | Próxima versão | F0000001 |
 
 </details><br>
 
----
 
 ## 📝 Template para Novas Features de QA
 
@@ -606,7 +510,7 @@ Feature: F0000001/Global_Exception
 
 #### 🥒 Especificação Gherkin
 
-```gherkin
+
 Feature: F[NUMERO]/[Nome_da_Feature]
   """
   Como [tipo de usuário]
@@ -638,7 +542,7 @@ Feature: F[NUMERO]/[Nome_da_Feature]
       | parametro | valor_esperado |
       | valor1    | resultado1     |
       | valor2    | resultado2     |
-```
+
 
 #### 🔬 Cenários de Teste Detalhados
 
@@ -647,6 +551,7 @@ Feature: F[NUMERO]/[Nome_da_Feature]
 
 **🔗 Testes de Integração:**
 - [Lista de testes de integração]
+
 
 **📊 Métricas de Qualidade:**
 - **Cobertura de Código:** [%] (meta: 80%)
@@ -659,9 +564,11 @@ Feature: F[NUMERO]/[Nome_da_Feature]
 | Data | Versão | Alteração | Responsável |
 |------|--------|-----------|-------------|
 | [Data] | [Ver] | [Descrição] | [Nome] |
-
-</details><br>
 ```
+
+</details>
+
+<br><br>
 
 </details>
 
@@ -689,9 +596,7 @@ Feature: F[NUMERO]/[Nome_da_Feature]
 ├── 📂 ms_quiz/                 # Documentação do microserviço de quiz
 ├── 📂 ms_live/                 # Documentação do microserviço de lives
 ├── 📂 ms_mono/                 # Documentação do microserviço monolítico
-├── 📂 ms_auth/                 # Documentação do microserviço de autenticação
-├── 📂 architecture/            # Documentação arquitetural geral
-└── 📂 shared/                  # Componentes compartilhados
+└── 📂 ms_auth/                 # Documentação do microserviço de autenticação
 ```
 
 ---
@@ -712,243 +617,8 @@ Feature: F[NUMERO]/[Nome_da_Feature]
 
 ### 🎯 Features Implementadas
 
-<details>
-  <summary>🛠 F0000001/Global_exception - 🔄 Em Desenvolvimento</summary>
 
-#### 📊 Status da Feature
-- 🔵 **Status:** Em Desenvolvimento
-- 👤 **Responsável DEV:** [Nome do Desenvolvedor]
-- 🏗️ **Arquiteto:** [Nome do Arquiteto]
-- 📅 **Data Início:** [Data]
-- 🎯 **Sprint:** [Sprint Atual]
-- ⏱️ **Estimativa:** [X] horas
-
-#### 📋 Informações da Feature
-
-**📝 Descrição Técnica:**
-Sistema centralizado de exceções globais utilizando padrão Strategy com enum para catálogo de erros. Implementa serialização JSON e toString customizados para logs e APIs.
-
-**🎯 Objetivo Arquitetural:**
-Padronizar tratamento de exceções em toda aplicação, reduzir código duplicado e melhorar debugging/monitoramento.
-
-**🏗️ Decisões de Design:**
-- **Padrão Strategy:** Para diferentes tipos de erro
-- **Enum Catalog:** Centralização de códigos e mensagens
-- **Serialização Customizada:** Para diferentes contextos (API/Log)
-- **Immutable Object:** Para garantir consistência
-
-#### 📐 Especificações Técnicas
-
-**🔧 Componentes Implementados:**
-- `GlobalException.java` - Classe principal de exceção
-- `ErrorCatalogEnum.java` - Catálogo de códigos de erro
-- `ExceptionSerializer.java` - Utilitário de serialização
-- `ErrorContext.java` - Contexto adicional para debugging
-
-**📦 Estrutura de Pacotes:**
-```
-com.pi.utils.exceptions/
-├── GlobalException.java
-├── ErrorContext.java
-└── serializers/
-    └── ExceptionSerializer.java
-
-com.pi.utils.enums/
-└── ErrorCatalogEnum.java
-```
-
-**🔗 Dependências:**
-- `com.fasterxml.jackson` - Para serialização JSON
-- `org.slf4j` - Para logging integrado
-- `org.springframework.http` - Para códigos HTTP
-
-**⚙️ Configurações:**
-- **Padrão de Códigos:** `C_GB_XXXXX` (Core_Global_Numero)
-- **Serialização:** JSON compacto para APIs, formato estendido para logs
-- **Log Level:** ERROR para exceções críticas, WARN para validações
-
-#### 🎨 Diagramas Arquiteturais
-
-**📊 Diagrama de Classes:**
-![Diagrama de Classes](../.assets/core/dc_F0000001_global_exception.png)
-
-**🔄 Diagrama de Sequência - Criação de Exceção:**
-```mermaid
-sequenceDiagram
-    participant S as Service
-    participant GE as GlobalException
-    participant EC as ErrorCatalogEnum
-    participant L as Logger
-
-    S->>EC: getError(errorCode)
-    EC-->>S: ErrorInfo
-    S->>GE: new GlobalException(errorInfo)
-    GE->>GE: populateFields()
-    GE->>L: logException()
-    GE-->>S: exception instance
-```
-
-**🏗️ Diagrama de Componentes:**
-```mermaid
-graph TB
-    subgraph "Core Module"
-        GE[GlobalException]
-        EC[ErrorCatalogEnum]
-        ES[ExceptionSerializer]
-        CT[ErrorContext]
-    end
-    
-    subgraph "External"
-        API[REST Controllers]
-        SRV[Business Services]
-        LOG[Logging System]
-    end
-    
-    SRV --> GE
-    GE --> EC
-    GE --> ES
-    GE --> CT
-    API --> GE
-    GE --> LOG
-```
-
-#### 💾 Especificação de Classes
-
-**🔧 GlobalException.java**
-```java
-/**
- * Exceção global padronizada para todo o sistema
- * @author [Nome do Desenvolvedor]
- * @version 1.0
- * @since 2024-01-15
- */
-public class GlobalException extends RuntimeException {
-    private final String code;
-    private final String message;
-    private final String causes;
-    private final String action;
-    private final String trace;
-    private final ErrorContext context;
-    
-    // Construtores, getters e métodos de serialização
-}
-```
-
-**📋 Atributos:**
-- `code: String` - Código único do erro (C_GB_XXXXX)
-- `message: String` - Mensagem descritiva do erro
-- `causes: String` - Possíveis causas do problema
-- `action: String` - Ações recomendadas para resolução
-- `trace: String` - Stack trace adicional
-- `context: ErrorContext` - Contexto adicional (usuário, request, etc.)
-
-**🔧 Métodos Principais:**
-- `toJson(): String` - Serialização para APIs REST
-- `toString(): String` - Formato para logs humanos
-- `getHttpStatus(): HttpStatus` - Status HTTP correspondente
-- `addContext(key, value): void` - Adicionar contexto dinâmico
-
-**🔧 ErrorCatalogEnum.java**
-```java
-/**
- * Catálogo centralizado de códigos de erro
- */
-public enum ErrorCatalogEnum {
-    SYSTEM_UNAVAILABLE("C_GB_00001", "Sistema temporariamente indisponível", 
-                      "Sobrecarga ou manutenção", "Tente novamente em alguns minutos"),
-    INVALID_DATA("C_GB_00002", "Dados de entrada inválidos", 
-                "Validação falhou", "Verifique os dados e tente novamente"),
-    ACCESS_DENIED("C_GB_00003", "Acesso negado", 
-                 "Permissões insuficientes", "Contacte o administrador");
-    
-    // Implementação do enum
-}
-```
-
-#### 🧪 Casos de Uso
-
-**1. Uso em Controller:**
-```java
-@RestController
-public class UserController {
-    
-    @PostMapping("/users")
-    public ResponseEntity<?> createUser(@RequestBody UserDto user) {
-        try {
-            return ResponseEntity.ok(userService.create(user));
-        } catch (GlobalException e) {
-            return ResponseEntity
-                .status(e.getHttpStatus())
-                .body(e.toJson());
-        }
-    }
-}
-```
-
-**2. Uso em Service:**
-```java
-@Service
-public class UserService {
-    
-    public User create(UserDto dto) {
-        if (dto.getEmail() == null) {
-            throw new GlobalException(ErrorCatalogEnum.INVALID_DATA)
-                .addContext("field", "email")
-                .addContext("action", "create_user");
-        }
-        // lógica de criação
-    }
-}
-```
-
-**3. Tratamento Global:**
-```java
-@ControllerAdvice
-public class GlobalExceptionHandler {
-    
-    @ExceptionHandler(GlobalException.class)
-    public ResponseEntity<String> handleGlobalException(GlobalException e) {
-        logger.error("Global exception occurred: {}", e.toString());
-        return ResponseEntity
-            .status(e.getHttpStatus())
-            .body(e.toJson());
-    }
-}
-```
-
-#### 📊 Métricas de Qualidade
-
-**🔍 Análise Estática:**
-- **Complexidade Ciclomática:** 3 (Simples)
-- **Linhas de Código:** 150 (Método principal)
-- **Acoplamento:** Baixo (2 dependências externas)
-- **Coesão:** Alta (responsabilidade única)
-
-**🧪 Cobertura de Testes:**
-- **Testes Unitários:** 95%
-- **Testes de Integração:** 85%
-- **Mutação Testing:** 88%
-
-**⚡ Performance:**
-- **Criação de Exceção:** < 1ms
-- **Serialização JSON:** < 0.5ms
-- **Logging:** < 2ms (total)
-
-#### 🔄 Histórico de Alterações
-
-| Data | Versão | Alteração | Arquiteto/Dev |
-|------|--------|-----------|---------------|
-| 2024-01-15 | 0.1 | Design inicial e especificação | Arquiteto Lead |
-| 2024-01-16 | 0.2 | Implementação da classe base | Dev Sênior |
-| 2024-01-17 | 0.3 | Adição de contexto dinâmico | Dev Sênior |
-
-#### 🔮 Próximos Passos
-- [ ] Implementar métricas automáticas de erros
-- [ ] Adicionar suporte a internacionalização
-- [ ] Integrar com sistema de alertas
-- [ ] Criar dashboard de monitoramento de erros
-
-</details><br>
+<br>
 
 ### 📊 Métricas do Módulo Core
 
@@ -983,13 +653,12 @@ public class GlobalExceptionHandler {
 
 </details><br>
 
----
 
 ## 📝 Template para Novas Features de Desenvolvimento
 
 ```markdown
 <details>
-  <summary>🛠 F[NUMERO]/[Nome_da_Feature] - [Status]</summary>
+ <summary>🛠 F[NUMERO]/[Nome_da_Feature] - [Status]</summary>
 
 #### 📊 Status da Feature
 - 🔵 **Status:** [Em Desenvolvimento/Parado/Concluído]
@@ -1012,15 +681,14 @@ public class GlobalExceptionHandler {
 - **Padrão 2:** [Justificativa]
 - **Tecnologia X:** [Por que foi escolhida]
 
+
 #### 📐 Especificações Técnicas
 
 **🔧 Componentes Implementados:**
 - [Lista de classes e interfaces]
 
 **📦 Estrutura de Pacotes:**
-```
-[estrutura de diretórios e arquivos]
-```
+- [estrutura de diretórios e arquivos]
 
 **🔗 Dependências:**
 - [Lista de dependências externas]
@@ -1028,33 +696,23 @@ public class GlobalExceptionHandler {
 **⚙️ Configurações:**
 - [Configurações necessárias]
 
+
 #### 🎨 Diagramas Arquiteturais
 
 **📊 Diagrama de Classes:**
-![Diagrama](../assets/[modulo]/dc_F[numero]_[nome].png)
+[![Diagrama](../assets/[modulo]/dc_F[numero]_[nome].png)]
 
 **🔄 Diagrama de Sequência:**
-```mermaid
-[diagrama mermaid]
-```
+[![Diagrama](../assets/[modulo]/dc_F[numero]_[nome].png)]
 
 **🏗️ Diagrama de Componentes:**
-```mermaid
-[diagrama mermaid]
-```
+[![Diagrama](../assets/[modulo]/dc_F[numero]_[nome].png)]
+
 
 #### 💾 Especificação de Classes
 
 **🔧 [NomeClasse].java**
-```java
-/**
- * [Descrição da classe]
- * @author [Nome]
- * @version [Versão]
- * @since [Data]
- */
-[Assinatura da classe]
-```
+[Exemplo de código]
 
 **📋 Atributos:**
 - [Lista de atributos com descrição]
@@ -1062,17 +720,16 @@ public class GlobalExceptionHandler {
 **🔧 Métodos Principais:**
 - [Lista de métodos com descrição]
 
+
 #### 🧪 Casos de Uso
 
 **1. [Cenário 1]:**
-```java
 [Exemplo de código]
-```
 
 **2. [Cenário 2]:**
-```java
 [Exemplo de código]
-```
+
+</details>
 
 #### 📊 Métricas de Qualidade
 
@@ -1100,8 +757,11 @@ public class GlobalExceptionHandler {
 - [ ] [Próximo passo 1]
 - [ ] [Próximo passo 2]
 
-</details><br>
 ```
+
+</details>
+
+<br>
 
 ### 🏗️ Template para Documentação de Módulo
 
@@ -1146,9 +806,3 @@ public class GlobalExceptionHandler {
 
 </details><br>
 ```
-
-</details>
-
-<br>
-
----

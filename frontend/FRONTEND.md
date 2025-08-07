@@ -1,17 +1,19 @@
-# Processo de Desenvolvimento Frontend
+# 🎨 Documentação Frontend - Boaz
 
 > 📋 **Índice do Documento**
-> - [🔄 Processo de Desenvolvimento](#processo-de-desenvolvimento-frontend)
-> - [📊 Processo de QA Frontend](#processo-de-qa-frontend)
-> - [🚀 Processo de Release](#processo-de-release-frontend)
-> - [🔧 Ferramentas e Stack Frontend](#ferramentas-e-stack-frontend)
-> - [📝 Templates e Componentes](#templates-e-componentes)
-> - [📈 Métricas e Performance](#métricas-e-performance-frontend)
+> - [🔄 Processo de Desenvolvimento](#-processo-de-desenvolvimento-frontend)
+> - [🧪 Pacote de Qualidade Frontend](#-pacote-de-qualidade-frontend)  
+> - [💻 Pacote de Desenvolvedor Frontend](#-pacote-de-desenvolvedor-frontend)
+> - [📝 Templates e Padrões](#-templates-e-padrões-frontend)
+
+<br>
 
 <details>
     <summary>🛠 Visualizar Processo Completo</summary>
 
 ![Processo](../.assets/proccess_dev_qa.png)
+
+<br>
 
 ## 🎯 Definição de Ready (DoR) - Frontend
 
@@ -23,6 +25,8 @@ Antes de iniciar qualquer desenvolvimento frontend, certifique-se que:
 - [ ] **Acessibilidade planejada** - Critérios WCAG 2.1 AA definidos
 - [ ] **Performance budget** - Limites de bundle size e Core Web Vitals
 - [ ] **Testes de usabilidade** - Cenários e personas definidos
+
+<br>
 
 ## 🎯 Definição de Done (DoD) - Frontend
 
@@ -168,6 +172,18 @@ Uma tarefa frontend só está completa quando:
 - Comunique o release a todas as partes interessadas após a implantação.
 - Monitore Core Web Vitals e métricas de usabilidade pós-deploy.
 
+</details>
+
+<br>
+<br>
+
+# 📝 Templates e Padrões Frontend
+
+> 📋 **Objetivo:** Padronizar documentação, processos e checklists para garantir qualidade e consistência no desenvolvimento frontend.
+
+<details>
+  <summary>🛠 Visualizar Templates Completos</summary>
+
 ## 🔧 Ferramentas e Stack Frontend
 
 ### 🔨 Stack de Desenvolvimento
@@ -178,6 +194,8 @@ Uma tarefa frontend só está completa quando:
 - **State Management:** Zustand / Redux Toolkit / Pinia
 - **Package Manager:** pnpm / yarn / npm
 
+<br>
+
 ### 🤖 Automação de Pipelines Frontend
 - **Build automatizado** com otimizações de bundle
 - **Testes automatizados** (unit, E2E, visual regression)
@@ -185,6 +203,8 @@ Uma tarefa frontend só está completa quando:
 - **Performance budget** enforcement
 - **Deploy automatizado** para CDN (Vercel/Netlify/CloudFront)
 - **Lighthouse CI** para métricas de performance
+
+<br>
 
 ### 📋 Ferramentas de Qualidade
 - **Testes unitários:** Jest / Vitest + Testing Library
@@ -194,11 +214,15 @@ Uma tarefa frontend só está completa quando:
 - **Performance:** Lighthouse, Web Vitals
 - **Análise estática:** ESLint, TypeScript, Prettier
 
+<br>
+
 ### 🎨 Design System e Componentes
 - **Storybook** - Documentação interativa de componentes
 - **Design Tokens** - Padronização de cores, tipografia e espaçamentos
 - **Atomic Design** - Metodologia de organização de componentes
 - **Component Library** - Biblioteca de componentes reutilizáveis
+
+<br>
 
 ## 📊 Processo de QA Frontend
 
@@ -215,6 +239,8 @@ Uma tarefa frontend só está completa quando:
    - **Testes de Performance** - Core Web Vitals, bundle size
    - **Testes Cross-browser** - Chrome, Firefox, Safari, Edge
 
+<br>
+
 ### 🔍 Processo de Revisão de Código Frontend
 1. **Checklist obrigatório:**
    - [ ] Componentes seguem padrões do design system
@@ -228,6 +254,8 @@ Uma tarefa frontend só está completa quando:
    - **Mínimo:** 1 aprovação de dev frontend Pleno/Sênior
    - **Design Review:** Aprovação de UX/UI para mudanças visuais
    - **Acessibilidade:** Validação obrigatória para novos componentes
+
+<br>
 
 ### 🐛 Processo de Bug Fixing Frontend
 1. **Priorização específica:**
@@ -243,9 +271,11 @@ Uma tarefa frontend só está completa quando:
    - Validação em Storybook e testes automatizados
    - Testes de regressão visual
 
-## 📝 Templates e Componentes
+<br>
 
-### 📄 Template de User Story Frontend
+## 📄 Templates de Documentação
+
+### 📋 Template de User Story Frontend
 ```markdown
 ## 📋 [ID] - Título da User Story Frontend
 
@@ -280,6 +310,8 @@ Uma tarefa frontend só está completa quando:
 - [ ] Responsividade: Mobile-first, breakpoints definidos
 - [ ] Cross-browser: Chrome, Firefox, Safari, Edge
 ```
+
+<br>
 
 ### 🔄 Template de Pull Request Frontend
 ```markdown
@@ -321,6 +353,8 @@ Closes #[número da issue]
 - [ ] ARIA labels quando necessário
 ```
 
+<br>
+
 ### ✅ Checklist de Release Frontend
 ```markdown
 ## 🚀 Checklist de Release Frontend v[X.Y.Z]
@@ -348,6 +382,8 @@ Closes #[número da issue]
 - [ ] Performance metrics normais
 ```
 
+<br>
+
 ## 📈 Métricas e Performance Frontend
 
 ### 📊 KPIs de Desenvolvimento Frontend
@@ -357,12 +393,16 @@ Closes #[número da issue]
 - **Component Coverage:** Percentual de componentes no Storybook
 - **Accessibility Score:** Pontuação média do axe-core (meta: 100%)
 
+<br>
+
 ### 🔍 Métricas de Qualidade Frontend
 - **Visual Regression Rate:** Bugs visuais por release
 - **Cross-browser Compatibility:** Suporte aos browsers principais
 - **Performance Budget Compliance:** Aderência aos limites definidos
 - **Design System Adoption:** Uso de componentes padronizados
 - **Mobile Performance Score:** Core Web Vitals específicos mobile
+
+<br>
 
 ### 🚀 Métricas de Performance
 - **Lighthouse Performance Score:** (meta: > 90)
@@ -371,11 +411,15 @@ Closes #[número da issue]
 - **First Input Delay (FID):** (meta: < 100ms)
 - **Cumulative Layout Shift (CLS):** (meta: < 0.1)
 
+<br>
+
 ### 📱 Monitoramento Frontend
 - **Real User Monitoring (RUM):** Core Web Vitals em produção
 - **Error Tracking:** Sentry/Bugsnag para JavaScript errors
 - **Analytics:** Google Analytics, Hotjar para UX insights
 - **Performance Monitoring:** Lighthouse CI, SpeedCurve
+
+<br>
 
 ### 📊 Dashboard de Métricas Frontend
 - **User Experience:** Core Web Vitals, bounce rate, conversão
@@ -386,8 +430,8 @@ Closes #[número da issue]
 </details>
 
 <br>
+<br>
 
----
 
 # 🧪 Pacote de Qualidade Frontend
 
@@ -409,16 +453,14 @@ Closes #[número da issue]
 
 ```
 📁 Pacote de Qualidade Frontend/
-├── 📂 boaz-hub/                # Testes da aplicação administrativa
-├── 📂 boaz-quest/              # Testes da aplicação de quiz
-├── 📂 shared-components/       # Testes de componentes compartilhados
-├── 📂 e2e-integration/         # Testes de integração entre apps
-└── 📂 performance/             # Testes de performance e Core Web Vitals
+├── 📂 b-oaz/                # Testes da aplicação b-oaz
+├── 📂 b-hub/                # Testes da aplicação hub
+├── 📂 b-quest/              # Testes da aplicação de quiz
+└── 📂 remote_common/        # Testes de componentes compartilhados
 ```
 
----
 
-## 🎨 boaz-hub/ - *Aplicação Administrativa*
+## 🎨 b-hub/ - *Aplicação Administrativa*
 
 👨‍💻 **Responsabilidade:** Testes E2E e de componentes para o painel administrativo BoazHub. Automação de cenários de criação de quizzes, gestão de usuários e análise de dados.
 
@@ -434,197 +476,28 @@ Closes #[número da issue]
 
 ### 🎯 Componentes Implementados
 
-<details>
-  <summary>🛠 FF0000001/Sidebar_Component - 🔄 Em Desenvolvimento</summary>
 
-#### 📊 Status do Componente
-- 🔵 **Status:** Em Desenvolvimento
-- 👤 **Responsável QA:** [Nome do QA]
-- 🎨 **UX/UI Designer:** [Nome do Designer]
-- 📅 **Data Início:** [Data]
-- 🎯 **Sprint:** [Sprint Atual]
-- ⏱️ **Estimativa:** [X] horas
 
-#### 📋 Informações do Componente
-
-**📝 Descrição Resumida:**
-Componente de navegação lateral responsivo e acessível para o BoazHub, com seções para busca, perfil e relatórios.
-
-**🎯 Objetivo de UX:**
-Proporcionar navegação intuitiva e eficiente entre as principais funcionalidades administrativas.
-
-**👥 Stakeholders:**
-- Administradores educacionais (navegação eficiente)
-- Professores (acesso rápido a relatórios)
-- Gestores (visão geral do sistema)
-
-#### 📋 Especificação de UI/UX
-
-**🔧 Componentes UI a Serem Testados:**
-- `SidebarContainer` no pacote `@boaz/remote-common`
-- `NavigationItem` para cada seção do menu
-- `SidebarToggle` para controle de abertura/fechamento
-- `UserProfile` widget no sidebar
-
-**📐 Critérios de Aceitação UI:**
-- [ ] Sidebar responsivo em desktop (> 1200px), tablet (768-1199px) e mobile (< 768px)
-- [ ] Navegação por teclado funcional (Tab, Enter, Escape)
-- [ ] Estados visuais claros (hover, focus, active, disabled)
-- [ ] Animações suaves para abertura/fechamento (< 300ms)
-- [ ] Acessibilidade WCAG 2.1 AA compliance
-
-**🧪 Cenários de Teste Principais:**
-1. **Renderização responsiva** - Adaptação a diferentes tamanhos de tela
-2. **Navegação por teclado** - Acessibilidade completa
-3. **Estados visuais** - Feedback visual adequado
-4. **Integração de rotas** - Redirecionamento correto
-5. **Performance** - Carregamento rápido e animações fluidas
-
-#### 🥒 Especificação Gherkin Frontend
-
-```gherkin
-Feature: FF0000001/Sidebar_Component
-  """
-  Como administrador do BoazHub
-  Eu quero uma sidebar intuitiva e acessível
-  Para que eu possa navegar eficientemente entre as funcionalidades do sistema
-  
-  Regras de UX:
-  - Design responsivo mobile-first
-  - Navegação por teclado completa
-  - Estados visuais claros para cada interação
-  - Animações suaves e performáticas
-  - Compliance WCAG 2.1 AA
-  """
-
-  Background:
-    Given que estou logado no BoazHub
-    And a sidebar está carregada
-    And o design system está aplicado
-
-  @smoke @responsive @critical
-  Scenario: Renderização responsiva da sidebar
-    Given que acesso o BoazHub em diferentes dispositivos
-    When visualizo a sidebar em "<dispositivo>"
-    Then a sidebar deve se adaptar ao tamanho "<largura>"
-    And deve manter usabilidade e funcionalidade
-    And todos os elementos devem estar visíveis e clicáveis
-
-    Examples:
-      | dispositivo | largura    | comportamento     |
-      | Desktop     | 1920px     | Sidebar expandida |
-      | Tablet      | 768px      | Sidebar colapsada |
-      | Mobile      | 375px      | Overlay modal     |
-
-  @accessibility @keyboard @wcag
-  Scenario: Navegação por teclado
-    Given que a sidebar está visível
-    When navego usando apenas o teclado
-    Then devo conseguir focar em todos os itens navegáveis
-    And pressionar "Tab" deve mover o foco sequencialmente
-    And pressionar "Enter" deve ativar o item focado
-    And pressionar "Escape" deve fechar a sidebar se expandida
-
-  @ui-states @visual
-  Scenario Outline: Estados visuais dos itens de navegação
-    Given que a sidebar está carregada
-    When interajo com um item de navegação
-    Then o item deve apresentar feedback visual apropriado
-    And a transição deve ser suave (< 200ms)
-
-    Examples:
-      | ação     | estado_visual        | feedback           |
-      | hover    | background highlight | Mudança de cor     |
-      | focus    | border outline       | Indicador de foco  |
-      | active   | pressed state        | Depressão visual   |
-      | disabled | opacity reduced      | Indicação inativa  |
-
-  @navigation @routing @integration
-  Scenario Outline: Redirecionamento de rotas
-    Given que estou na sidebar
-    When clico no item "<item_menu>"
-    Then devo ser redirecionado para "<rota_esperada>"
-    And a URL deve refletir a mudança
-    And o item ativo deve ser destacado visualmente
-
-    Examples:
-      | item_menu        | rota_esperada     |
-      | Home de busca    | /dashboard        |
-      | Perfil usuário   | /profile          |
-      | Relatórios       | /reports          |
-
-  @performance @animation
-  Scenario: Performance de animações
-    Given que a sidebar possui animações
-    When executo ações que triggeram animações
-    Then as animações devem ser fluidas (60fps)
-    And não devem causar layout shifts
-    And devem respeitar preferências de acessibilidade (prefers-reduced-motion)
-
-  @mobile @touch @gesture
-  Scenario: Interações touch em dispositivos móveis
-    Given que estou em um dispositivo mobile
-    When interajo com a sidebar usando gestos touch
-    Then devo conseguir abrir a sidebar com swipe da esquerda
-    And fechar com swipe para esquerda ou toque fora
-    And todos os itens devem ser facilmente tocáveis (min 44px)
-```
-
-#### 🔬 Cenários de Teste Detalhados
-
-**🧪 Testes Unitários de Componente:**
-- `SidebarContainer.test.tsx` - Renderização e props
-- `NavigationItem.test.tsx` - Estados e interações
-- `SidebarToggle.test.tsx` - Funcionalidade de toggle
-- `SidebarAccessibility.test.tsx` - Compliance WCAG
-
-**🔗 Testes de Integração:**
-- `SidebarRouting.test.tsx` - Integração com React Router
-- `SidebarResponsive.test.tsx` - Comportamento responsivo
-- `SidebarTheme.test.tsx` - Integração com design system
-
-**🎭 Testes E2E (Playwright):**
-- `sidebar-navigation.spec.ts` - Fluxos completos de navegação
-- `sidebar-responsive.spec.ts` - Teste responsivo cross-browser
-- `sidebar-accessibility.spec.ts` - Testes com screen readers
-
-**📊 Métricas de Qualidade:**
-- **Cobertura de Código:** 95% (meta: 90%)
-- **Accessibility Score:** 100% (axe-core)
-- **Performance Score:** 98% (Lighthouse)
-- **Visual Regression:** 0 diffs não aprovados
-- **Cross-browser Support:** Chrome, Firefox, Safari, Edge
-
-#### 🔄 Histórico de Alterações
-
-| Data | Versão | Alteração | Responsável |
-|------|--------|-----------|-------------|
-| 2024-01-15 | 0.1 | Criação inicial do componente | QA Lead + UX Designer |
-| 2024-01-16 | 0.2 | Adição de testes de acessibilidade | QA Júnior |
-| 2024-01-17 | 0.3 | Implementação de testes responsivos | QA Pleno |
-
-</details><br>
+<br>
 
 ### 📊 Métricas da Aplicação BoazHub
 
 | Métrica | Valor Atual | Meta | Status |
 |---------|-------------|------|--------|
-| **Component Coverage** | 85% | 90% | 🔄 |
-| **E2E Test Coverage** | 75% | 80% | 🔄 |
-| **Accessibility Score** | 92% | 95% | 🔄 |
-| **Performance Score** | 95% | 90% | ✅ |
-| **Cross-browser Support** | 98% | 95% | ✅ |
+| **Component Coverage** | 85% | 0% | 🔄 |
+| **E2E Test Coverage** | 75% | 0% | 🔄 |
+| **Accessibility Score** | 92% | 0% | 🔄 |
+| **Performance Score** | 95% | 0% | ✅ |
+| **Cross-browser Support** | 98% | 0% | ✅ |
 
 ### 📈 Versioning
 
 | Versão | Data | Descrição | Componentes | QA Lead |
 |:-------|:-----|:----------|:------------|:--------|
-| `00.01` | 2024-01-15 | Versão inicial | FF0000001 | [Nome] |
-| `00.02` | - | Próxima versão | FF0000002, FF0000003 | [Nome] |
+| `00.01`| -    | Próxima versão | FF0000001| [Nome] |
 
 </details><br>
 
----
 
 ## 📝 Template para Novos Componentes Frontend QA
 
@@ -668,7 +541,8 @@ Feature: FF0000001/Sidebar_Component
 
 #### 🥒 Especificação Gherkin Frontend
 
-```gherkin
+<code ```gherkin>
+
 Feature: FF[NUMERO]/[Nome_do_Componente]
   """
   Como [tipo de usuário]
@@ -701,7 +575,8 @@ Feature: FF[NUMERO]/[Nome_do_Componente]
     Given [condições de teste]
     When [ação que pode impactar performance]
     Then [métricas dentro do esperado]
-```
+
+</code ```>
 
 #### 🔬 Cenários de Teste Detalhados
 
@@ -731,6 +606,9 @@ Feature: FF[NUMERO]/[Nome_do_Componente]
 
 </details>
 
+<br>
+<br>
+
 # 💻 Pacote de Desenvolvedor Frontend
 
 > 📋 **Objetivo:** Documentar arquitetura de componentes, design systems, especificações técnicas e decisões de UX/UI para cada aplicação frontend.
@@ -750,16 +628,13 @@ Feature: FF[NUMERO]/[Nome_do_Componente]
 
 ```
 📁 Pacote de Desenvolvedor Frontend/
-├── 📂 boaz-hub/                # Documentação da aplicação administrativa
-├── 📂 boaz-quest/              # Documentação da aplicação de quiz
-├── 📂 design-system/           # Design system compartilhado
-├── 📂 shared-components/       # Componentes reutilizáveis
-└── 📂 architecture/            # Decisões arquiteturais globais
+├── 📂 b-oaz/              # Design Aplicação portada
+├── 📂 b-hub/              # Design Aplicação de administração
+├── 📂 b-quest/            # Design Aplicação quiz
+└── 📂 remote_common/      # Design system compartilhado
 ```
 
----
-
-## 🎨 boaz-hub/ - *Aplicação Administrativa*
+## 🎨 b-hub/ - *Aplicação Administrativa*
 
 👨‍💻 **Responsabilidade:** Documentação técnica e arquitetural do painel administrativo BoazHub. Especificações de componentes, fluxos de usuário e integrações.
 
@@ -775,335 +650,18 @@ Feature: FF[NUMERO]/[Nome_do_Componente]
 
 ### 🎯 Componentes Implementados
 
-<details>
-  <summary>🛠 FF0000001/Sidebar_Component - 🔄 Em Desenvolvimento</summary>
 
-#### 📊 Status do Componente
-- 🔵 **Status:** Em Desenvolvimento
-- 👤 **Responsável DEV:** [Nome do Desenvolvedor Frontend]
-- 🎨 **UX/UI Designer:** [Nome do Designer]
-- 🏗️ **Arquiteto Frontend:** [Nome do Arquiteto]
-- 📅 **Data Início:** [Data]
-- 🎯 **Sprint:** [Sprint Atual]
-- ⏱️ **Estimativa:** [X] horas
-
-#### 📋 Informações do Componente
-
-**📝 Descrição Técnica:**
-Componente de navegação lateral construído com React 18+ e TypeScript, utilizando Compound Components pattern para máxima flexibilidade e reutilização.
-
-**🎯 Objetivo Arquitetural:**
-Criar um sistema de navegação modular, acessível e performático que sirva como base para outras aplicações do ecossistema Boaz.
-
-**🏗️ Decisões de Design:**
-- **Compound Components Pattern:** Para flexibilidade na composição
-- **CSS-in-JS (Styled Components):** Para isolamento de estilos
-- **React Context + useReducer:** Para gerenciamento de estado local
-- **Framer Motion:** Para animações performáticas
-- **React Router v6:** Para navegação programática
-
-#### 📐 Especificações Técnicas
-
-**🔧 Componentes Implementados:**
-- `SidebarContainer.tsx` - Container principal com lógica de estado
-- `SidebarToggle.tsx` - Botão de controle de abertura/fechamento
-- `SidebarNav.tsx` - Lista de navegação com itens
-- `SidebarItem.tsx` - Item individual de navegação
-- `SidebarFooter.tsx` - Rodapé com informações do usuário
-
-**📦 Estrutura de Arquivos:**
-```
-src/components/Sidebar/
-├── index.ts                    # Exports públicos
-├── SidebarContainer.tsx        # Container principal
-├── SidebarToggle.tsx          # Toggle button
-├── SidebarNav.tsx             # Navigation wrapper
-├── SidebarItem.tsx            # Navigation item
-├── SidebarFooter.tsx          # Footer component
-├── hooks/
-│   ├── useSidebar.ts          # Hook de estado
-│   └── useSidebarKeyboard.ts  # Hook de navegação por teclado
-├── types/
-│   └── sidebar.types.ts       # TypeScript definitions
-├── styles/
-│   ├── SidebarStyles.ts       # Styled components
-│   └── animations.ts          # Framer Motion variants
-└── __tests__/
-    ├── Sidebar.test.tsx       # Testes unitários
-    └── SidebarAccessibility.test.tsx
-```
-
-**🔗 Dependências:**
-- `react` ^18.2.0 - Framework base
-- `@types/react` ^18.2.0 - Tipagens TypeScript
-- `styled-components` ^6.0.0 - CSS-in-JS
-- `framer-motion` ^10.0.0 - Animações
-- `react-router-dom` ^6.8.0 - Roteamento
-- `@boaz/design-tokens` ^1.0.0 - Design system tokens
-
-**⚙️ Configurações:**
-- **Breakpoints:** Mobile (< 768px), Tablet (768-1199px), Desktop (≥ 1200px)
-- **Animações:** Spring (tension: 300, friction: 30)
-- **Acessibilidade:** ARIA compliant, navegação por teclado
-- **Performance:** Lazy loading, virtualization para listas grandes
-
-#### 🎨 Arquitetura de Componentes
-
-**📊 Diagrama de Componentes:**
-```mermaid
-graph TB
-    subgraph "Sidebar Component Architecture"
-        SC[SidebarContainer]
-        ST[SidebarToggle]
-        SN[SidebarNav]
-        SI[SidebarItem]
-        SF[SidebarFooter]
-        
-        subgraph "Hooks"
-            US[useSidebar]
-            UK[useSidebarKeyboard]
-        end
-        
-        subgraph "Context"
-            SX[SidebarContext]
-        end
-    end
-    
-    subgraph "External Dependencies"
-        RR[React Router]
-        DS[Design System]
-        FM[Framer Motion]
-    end
-    
-    SC --> ST
-    SC --> SN
-    SC --> SF
-    SN --> SI
-    SC --> US
-    SC --> UK
-    SC --> SX
-    SI --> RR
-    SC --> DS
-    SC --> FM
-```
-
-**🔄 Fluxo de Estado:**
-```mermaid
-stateDiagram-v2
-    [*] --> Closed
-    Closed --> Opening : toggle()
-    Opening --> Open : animation complete
-    Open --> Closing : toggle() or clickOutside()
-    Closing --> Closed : animation complete
-    Open --> NavigatingTo : selectItem()
-    NavigatingTo --> Open : navigation complete
-```
-
-**🏗️ Compound Components Structure:**
-```mermaid
-graph LR
-    subgraph "Usage Pattern"
-        A[Sidebar] --> B[Sidebar.Toggle]
-        A --> C[Sidebar.Nav]
-        C --> D[Sidebar.Item]
-        C --> E[Sidebar.Item]
-        C --> F[Sidebar.Item]
-        A --> G[Sidebar.Footer]
-    end
-```
-
-#### 💾 Especificação de Implementação
-
-**🔧 SidebarContainer.tsx**
-```typescript
-/**
- * Container principal do Sidebar com gerenciamento de estado
- * @author [Nome do Desenvolvedor]
- * @version 1.0
- * @since 2024-01-15
- */
-interface SidebarProps {
-  defaultOpen?: boolean;
-  variant?: 'overlay' | 'push' | 'permanent';
-  breakpoint?: 'mobile' | 'tablet' | 'desktop';
-  onStateChange?: (isOpen: boolean) => void;
-  children: React.ReactNode;
-}
-
-export const SidebarContainer: React.FC<SidebarProps> = ({
-  defaultOpen = false,
-  variant = 'overlay',
-  breakpoint = 'mobile',
-  onStateChange,
-  children
-}) => {
-  // Implementação do componente
-};
-```
-
-**📋 Props Interface:**
-- `defaultOpen: boolean` - Estado inicial de abertura
-- `variant: 'overlay' | 'push' | 'permanent'` - Comportamento visual
-- `breakpoint: string` - Responsividade automática
-- `onStateChange: (boolean) => void` - Callback de mudança de estado
-- `children: ReactNode` - Composição de componentes filhos
-
-**🔧 Hooks Customizados:**
-```typescript
-// useSidebar.ts
-export const useSidebar = (defaultOpen: boolean) => {
-  const [isOpen, setIsOpen] = useState(defaultOpen);
-  const [isAnimating, setIsAnimating] = useState(false);
-  
-  const toggle = useCallback(() => {
-    setIsAnimating(true);
-    setIsOpen(prev => !prev);
-  }, []);
-  
-  return { isOpen, isAnimating, toggle, setIsOpen };
-};
-
-// useSidebarKeyboard.ts
-export const useSidebarKeyboard = (
-  isOpen: boolean, 
-  onClose: () => void
-) => {
-  useEffect(() => {
-    const handleKeyDown = (event: KeyboardEvent) => {
-      if (event.key === 'Escape' && isOpen) {
-        onClose();
-      }
-    };
-    
-    document.addEventListener('keydown', handleKeyDown);
-    return () => document.removeEventListener('keydown', handleKeyDown);
-  }, [isOpen, onClose]);
-};
-```
-
-#### 🧪 Casos de Uso e Implementação
-
-**1. Uso Básico:**
-```tsx
-import { Sidebar } from '@boaz/ui-components';
-
-export const AdminLayout = () => {
-  return (
-    <div className="admin-layout">
-      <Sidebar defaultOpen={false} variant="overlay">
-        <Sidebar.Toggle />
-        <Sidebar.Nav>
-          <Sidebar.Item href="/dashboard" icon={HomeIcon}>
-            Dashboard
-          </Sidebar.Item>
-          <Sidebar.Item href="/users" icon={UsersIcon}>
-            Usuários
-          </Sidebar.Item>
-          <Sidebar.Item href="/reports" icon={ChartIcon}>
-            Relatórios
-          </Sidebar.Item>
-        </Sidebar.Nav>
-        <Sidebar.Footer>
-          <UserProfile />
-        </Sidebar.Footer>
-      </Sidebar>
-      <main className="main-content">
-        {/* Conteúdo principal */}
-      </main>
-    </div>
-  );
-};
-```
-
-**2. Configuração Avançada:**
-```tsx
-export const ResponsiveSidebar = () => {
-  const [sidebarOpen, setSidebarOpen] = useState(false);
-  
-  return (
-    <Sidebar 
-      defaultOpen={false}
-      variant="push"
-      breakpoint="tablet"
-      onStateChange={setSidebarOpen}
-    >
-      {/* Configuração de componentes */}
-    </Sidebar>
-  );
-};
-```
-
-**3. Integração com React Router:**
-```tsx
-import { useLocation } from 'react-router-dom';
-
-export const NavigationSidebar = () => {
-  const location = useLocation();
-  
-  return (
-    <Sidebar.Nav>
-      {navigationItems.map(item => (
-        <Sidebar.Item
-          key={item.path}
-          href={item.path}
-          active={location.pathname === item.path}
-          icon={item.icon}
-        >
-          {item.label}
-        </Sidebar.Item>
-      ))}
-    </Sidebar.Nav>
-  );
-};
-```
-
-#### 📊 Métricas de Qualidade
-
-**🔍 Análise Estática:**
-- **Bundle Size:** 45KB gzipped (incluindo dependências)
-- **Tree Shaking:** Suporte completo para importações seletivas
-- **TypeScript Coverage:** 100% (strict mode)
-- **Performance Score:** 98/100 (Lighthouse)
-
-**🧪 Cobertura de Testes:**
-- **Testes Unitários:** 95% (Jest + Testing Library)
-- **Testes E2E:** 90% (Playwright)
-- **Testes de Acessibilidade:** 100% (jest-axe)
-- **Visual Regression:** 100% (Chromatic)
-
-**⚡ Performance Metrics:**
-- **First Paint:** < 50ms (componente isolado)
-- **Animation Frame Rate:** 60fps consistente
-- **Memory Usage:** < 2MB (após garbage collection)
-- **Re-render Optimization:** React.memo + useCallback
-
-#### 🔄 Histórico de Alterações
-
-| Data | Versão | Alteração | Arquiteto/Dev |
-|------|--------|-----------|---------------|
-| 2024-01-15 | 0.1 | Arquitetura inicial e design | Arquiteto Frontend |
-| 2024-01-16 | 0.2 | Implementação do compound pattern | Dev Frontend Sênior |
-| 2024-01-17 | 0.3 | Adição de animações e responsividade | Dev Frontend Pleno |
-| 2024-01-18 | 0.4 | Otimizações de performance | Dev Frontend Sênior |
-
-#### 🔮 Próximos Passos
-- [ ] Implementar lazy loading para ícones
-- [ ] Adicionar suporte a temas dark/light
-- [ ] Criar variantes para diferentes layouts
-- [ ] Implementar virtualization para listas grandes
-- [ ] Adicionar suporte a nested navigation
-
-</details><br>
+<br>
 
 ### 📊 Métricas da Aplicação BoazHub
 
 | Métrica | Valor Atual | Meta | Status |
 |---------|-------------|------|--------|
-| **Component Documentation** | 90% | 95% | 🔄 |
-| **Design System Compliance** | 95% | 90% | ✅ |
-| **TypeScript Coverage** | 98% | 95% | ✅ |
-| **Bundle Size Optimization** | 85% | 80% | ✅ |
-| **Accessibility Score** | 96% | 95% | ✅ |
+| **Component Documentation** | 90% | 0% | 🔄 |
+| **Design System Compliance** | 95% | 0% | ✅ |
+| **TypeScript Coverage** | 98% | 0% | ✅ |
+| **Bundle Size Optimization** | 85% | 0% | ✅ |
+| **Accessibility Score** | 96% | 0% | ✅ |
 
 ### 🏗️ Arquitetura da Aplicação
 
@@ -1124,12 +682,10 @@ export const NavigationSidebar = () => {
 
 | Versão | Data | Descrição | Componentes | Arquiteto |
 |:-------|:-----|:----------|:------------|:----------|
-| `00.01` | 2024-01-15 | Versão inicial | FF0000001 | [Nome] |
-| `00.02` | - | Próxima versão | FF0000002, FF0000003 | [Nome] |
+| `00.01`| -    | Próxima versão | FF0000001 | [Nome] |
 
 </details><br>
 
----
 
 ## 📝 Template para Novos Componentes Frontend DEV
 
@@ -1165,9 +721,7 @@ export const NavigationSidebar = () => {
 - [Lista de arquivos e componentes]
 
 **📦 Estrutura de Arquivos:**
-```
 [estrutura de diretórios]
-```
 
 **🔗 Dependências:**
 - [Lista de dependências npm]
@@ -1178,29 +732,17 @@ export const NavigationSidebar = () => {
 #### 🎨 Arquitetura de Componentes
 
 **📊 Diagrama de Componentes:**
-```mermaid
 [diagrama mermaid da arquitetura]
-```
+
 
 **🔄 Fluxo de Estado:**
-```mermaid
 [diagrama de fluxo de estado]
-```
+
 
 #### 💾 Especificação de Implementação
 
 **🔧 [NomeComponente].tsx**
-```typescript
-/**
- * [Descrição do componente]
- * @author [Nome]
- * @version [Versão]
- * @since [Data]
- */
-interface [Nome]Props {
-  // definição de props
-}
-```
+[Código]
 
 **📋 Props Interface:**
 - [Lista detalhada de props]
@@ -1211,14 +753,11 @@ interface [Nome]Props {
 #### 🧪 Casos de Uso e Implementação
 
 **1. [Uso Básico]:**
-```tsx
 [Exemplo básico de uso]
-```
+
 
 **2. [Configuração Avançada]:**
-```tsx
 [Exemplo avançado]
-```
 
 #### 📊 Métricas de Qualidade
 
@@ -1249,6 +788,10 @@ interface [Nome]Props {
 
 </details><br>
 ```
+
+</details>
+
+<br>
 
 ### 🏗️ Template para Documentação de Aplicação Frontend
 
@@ -1293,9 +836,3 @@ interface [Nome]Props {
 
 </details><br>
 ```
-
-</details>
-
-<br>
-
----
