@@ -384,6 +384,260 @@ Closes #[número da issue]
 
 <br>
 
+### 🏗️ Template para Documentação de Aplicação Frontend
+```markdown
+## 🎨 [nome_aplicacao]/ - *[Propósito da Aplicação]*
+
+👨‍💻 **Responsabilidade:** [Descrição da responsabilidade da aplicação]
+
+<details>
+    <summary>🛠 Detalhes da Aplicação [Nome]</summary>
+
+### 📊 Status Geral da Aplicação
+- **Componentes Totais:** [numero]
+- **Componentes Documentados:** [numero]  
+- **Componentes em Desenvolvimento:** [numero]
+- **Cobertura de Documentação:** [%]
+- **Design System Compliance:** [%]
+
+### 🎯 Componentes Implementados
+[Lista para Novos Componentes]
+
+### 📊 Métricas da Aplicação
+
+| Métrica | Valor Atual | Meta | Status |
+|---------|-------------|------|--------|
+| **Métrica 1** | [valor] | [meta] | [status] |
+| **Métrica 2** | [valor] | [meta] | [status] |
+
+### 🏗️ Arquitetura da Aplicação
+
+**🎯 Padrões Utilizados:**
+- [Lista de padrões de design frontend]
+
+**📐 Princípios Frontend:**
+- [Check de cada princípio]
+
+### 📈 Versioning
+
+| Versão | Data | Descrição | Componentes | Arquiteto |
+|:-------|:-----|:----------|:------------|:----------|
+| [ver] | [data] | [desc] | [components] | [nome] |
+
+</details><br>
+```
+
+<br>
+
+## 📝 Template para Novos Componentes Frontend DEV
+```markdown
+<details>
+  <summary>🛠 FF[NUMERO]/[Nome_do_Componente] - [Status]</summary>
+
+#### 📊 Status do Componente
+- 🔵 **Status:** [Em Desenvolvimento/Parado/Concluído]
+- 👤 **Responsável DEV:** [Nome do Desenvolvedor Frontend]
+- 🎨 **UX/UI Designer:** [Nome do Designer]
+- 🏗️ **Arquiteto Frontend:** [Nome do Arquiteto]
+- 📅 **Data Início:** [Data]
+- 🎯 **Sprint:** [Sprint Atual]
+- ⏱️ **Estimativa:** [X] horas
+
+#### 📋 Informações do Componente
+
+**📝 Descrição Técnica:**
+[Descrição detalhada da implementação técnica do componente]
+
+**🎯 Objetivo Arquitetural:**
+[Por que esta solução de UI foi escolhida]
+
+**🏗️ Decisões de Design:**
+- **Pattern 1:** [Justificativa]
+- **Tecnologia X:** [Por que foi escolhida]
+- **Estrutura Y:** [Benefícios]
+
+#### 📐 Especificações Técnicas
+
+**🔧 Componentes Implementados:**
+- [Lista de arquivos e componentes]
+
+**📦 Estrutura de Arquivos:**
+[estrutura de diretórios]
+
+**🔗 Dependências:**
+- [Lista de dependências npm]
+
+**⚙️ Configurações:**
+- [Configurações específicas do componente]
+
+#### 🎨 Arquitetura de Componentes
+
+**📊 Diagrama de Componentes:**
+[diagrama mermaid da arquitetura]
+
+
+**🔄 Fluxo de Estado:**
+[diagrama de fluxo de estado]
+
+
+#### 💾 Especificação de Implementação
+
+**🔧 [NomeComponente].tsx**
+[Código]
+
+**📋 Props Interface:**
+- [Lista detalhada de props]
+
+**🔧 Hooks Customizados:**
+- [Lista de hooks específicos]
+
+#### 🧪 Casos de Uso e Implementação
+
+**1. [Uso Básico]:**
+[Exemplo básico de uso]
+
+
+**2. [Configuração Avançada]:**
+[Exemplo avançado]
+
+#### 📊 Métricas de Qualidade
+
+**🔍 Análise Estática:**
+- **Bundle Size:** [tamanho] gzipped
+- **TypeScript Coverage:** [%]
+- **Performance Score:** [score]/100
+
+**🧪 Cobertura de Testes:**
+- **Testes Unitários:** [%]
+- **Testes E2E:** [%]
+- **Testes de Acessibilidade:** [%]
+
+**⚡ Performance Metrics:**
+- **First Paint:** [tempo]
+- **Animation Frame Rate:** [fps]
+- **Memory Usage:** [mb]
+
+#### 🔄 Histórico de Alterações
+
+| Data | Versão | Alteração | Arquiteto/Dev |
+|------|--------|-----------|---------------|
+| [Data] | [Ver] | [Descrição] | [Nome] |
+
+#### 🔮 Próximos Passos
+- [ ] [Próximo passo 1]
+- [ ] [Próximo passo 2]
+
+</details><br>
+```
+
+<br>
+
+## 📝 Template para Novos Componentes Frontend QA
+```markdown
+<details>
+  <summary>🛠 FF[NUMERO]/[Nome_do_Componente] - [Status]</summary>
+
+#### 📊 Status do Componente
+- 🔵 **Status:** [Em Desenvolvimento/Parado/Concluído]
+- 👤 **Responsável QA:** [Nome do QA]
+- 🎨 **UX/UI Designer:** [Nome do Designer]
+- 📅 **Data Início:** [Data]
+- 🎯 **Sprint:** [Sprint Atual]
+- ⏱️ **Estimativa:** [X] horas
+
+#### 📋 Informações do Componente
+
+**📝 Descrição Resumida:**
+[Breve descrição do componente e sua função]
+
+**🎯 Objetivo de UX:**
+[Por que este componente é importante para a experiência do usuário]
+
+**👥 Stakeholders:**
+- [Lista de usuários e como são impactados]
+
+#### 📋 Especificação de UI/UX
+
+**🔧 Componentes UI a Serem Testados:**
+- [Lista de componentes React/Vue/Angular]
+
+**📐 Critérios de Aceitação UI:**
+- [ ] Responsividade em todos os breakpoints
+- [ ] Acessibilidade WCAG 2.1 AA
+- [ ] Performance (Core Web Vitals)
+- [ ] Cross-browser compatibility
+
+**🧪 Cenários de Teste Principais:**
+1. **[Cenário 1]** - [Descrição]
+2. **[Cenário 2]** - [Descrição]
+
+#### 🥒 Especificação Gherkin Frontend
+
+<code ```gherkin>
+
+Feature: FF[NUMERO]/[Nome_do_Componente]
+  """
+  Como [tipo de usuário]
+  Eu quero [funcionalidade]
+  Para que [benefício de UX]
+  
+  Regras de UX:
+  - [Regra 1]
+  - [Regra 2]
+  """
+
+  Background:
+    Given [pré-condições comuns de UI]
+
+  @smoke @responsive @critical
+  Scenario: [Nome do cenário principal]
+    Given [estado inicial da UI]
+    When [interação do usuário]
+    Then [resultado visual esperado]
+    And [validação de acessibilidade]
+
+  @accessibility @keyboard @wcag
+  Scenario: [Cenário de acessibilidade]
+    Given [estado inicial]
+    When [navegação por teclado/screen reader]
+    Then [comportamento acessível esperado]
+
+  @performance @mobile
+  Scenario: [Cenário de performance]
+    Given [condições de teste]
+    When [ação que pode impactar performance]
+    Then [métricas dentro do esperado]
+
+</code ```>
+
+#### 🔬 Cenários de Teste Detalhados
+
+**🧪 Testes Unitários de Componente:**
+- [Lista de arquivos de teste]
+
+**🔗 Testes de Integração:**
+- [Lista de testes de integração]
+
+**🎭 Testes E2E:**
+- [Lista de specs E2E]
+
+**📊 Métricas de Qualidade:**
+- **Cobertura de Código:** [%] (meta: 90%)
+- **Accessibility Score:** [%] (meta: 100%)
+- **Performance Score:** [%] (meta: 90%)
+- **Cross-browser Support:** [%] (meta: 95%)
+
+#### 🔄 Histórico de Alterações
+
+| Data | Versão | Alteração | Responsável |
+|------|--------|-----------|-------------|
+| [Data] | [Ver] | [Descrição] | [Nome] |
+
+</details><br>
+```
+
+<br>
+
 ## 📈 Métricas e Performance Frontend
 
 ### 📊 KPIs de Desenvolvimento Frontend
@@ -499,110 +753,7 @@ Closes #[número da issue]
 </details><br>
 
 
-## 📝 Template para Novos Componentes Frontend QA
 
-```markdown
-<details>
-  <summary>🛠 FF[NUMERO]/[Nome_do_Componente] - [Status]</summary>
-
-#### 📊 Status do Componente
-- 🔵 **Status:** [Em Desenvolvimento/Parado/Concluído]
-- 👤 **Responsável QA:** [Nome do QA]
-- 🎨 **UX/UI Designer:** [Nome do Designer]
-- 📅 **Data Início:** [Data]
-- 🎯 **Sprint:** [Sprint Atual]
-- ⏱️ **Estimativa:** [X] horas
-
-#### 📋 Informações do Componente
-
-**📝 Descrição Resumida:**
-[Breve descrição do componente e sua função]
-
-**🎯 Objetivo de UX:**
-[Por que este componente é importante para a experiência do usuário]
-
-**👥 Stakeholders:**
-- [Lista de usuários e como são impactados]
-
-#### 📋 Especificação de UI/UX
-
-**🔧 Componentes UI a Serem Testados:**
-- [Lista de componentes React/Vue/Angular]
-
-**📐 Critérios de Aceitação UI:**
-- [ ] Responsividade em todos os breakpoints
-- [ ] Acessibilidade WCAG 2.1 AA
-- [ ] Performance (Core Web Vitals)
-- [ ] Cross-browser compatibility
-
-**🧪 Cenários de Teste Principais:**
-1. **[Cenário 1]** - [Descrição]
-2. **[Cenário 2]** - [Descrição]
-
-#### 🥒 Especificação Gherkin Frontend
-
-<code ```gherkin>
-
-Feature: FF[NUMERO]/[Nome_do_Componente]
-  """
-  Como [tipo de usuário]
-  Eu quero [funcionalidade]
-  Para que [benefício de UX]
-  
-  Regras de UX:
-  - [Regra 1]
-  - [Regra 2]
-  """
-
-  Background:
-    Given [pré-condições comuns de UI]
-
-  @smoke @responsive @critical
-  Scenario: [Nome do cenário principal]
-    Given [estado inicial da UI]
-    When [interação do usuário]
-    Then [resultado visual esperado]
-    And [validação de acessibilidade]
-
-  @accessibility @keyboard @wcag
-  Scenario: [Cenário de acessibilidade]
-    Given [estado inicial]
-    When [navegação por teclado/screen reader]
-    Then [comportamento acessível esperado]
-
-  @performance @mobile
-  Scenario: [Cenário de performance]
-    Given [condições de teste]
-    When [ação que pode impactar performance]
-    Then [métricas dentro do esperado]
-
-</code ```>
-
-#### 🔬 Cenários de Teste Detalhados
-
-**🧪 Testes Unitários de Componente:**
-- [Lista de arquivos de teste]
-
-**🔗 Testes de Integração:**
-- [Lista de testes de integração]
-
-**🎭 Testes E2E:**
-- [Lista de specs E2E]
-
-**📊 Métricas de Qualidade:**
-- **Cobertura de Código:** [%] (meta: 90%)
-- **Accessibility Score:** [%] (meta: 100%)
-- **Performance Score:** [%] (meta: 90%)
-- **Cross-browser Support:** [%] (meta: 95%)
-
-#### 🔄 Histórico de Alterações
-
-| Data | Versão | Alteração | Responsável |
-|------|--------|-----------|-------------|
-| [Data] | [Ver] | [Descrição] | [Nome] |
-
-</details><br>
-```
 
 </details>
 
@@ -686,153 +837,6 @@ Feature: FF[NUMERO]/[Nome_do_Componente]
 
 </details><br>
 
-
-## 📝 Template para Novos Componentes Frontend DEV
-
-```markdown
-<details>
-  <summary>🛠 FF[NUMERO]/[Nome_do_Componente] - [Status]</summary>
-
-#### 📊 Status do Componente
-- 🔵 **Status:** [Em Desenvolvimento/Parado/Concluído]
-- 👤 **Responsável DEV:** [Nome do Desenvolvedor Frontend]
-- 🎨 **UX/UI Designer:** [Nome do Designer]
-- 🏗️ **Arquiteto Frontend:** [Nome do Arquiteto]
-- 📅 **Data Início:** [Data]
-- 🎯 **Sprint:** [Sprint Atual]
-- ⏱️ **Estimativa:** [X] horas
-
-#### 📋 Informações do Componente
-
-**📝 Descrição Técnica:**
-[Descrição detalhada da implementação técnica do componente]
-
-**🎯 Objetivo Arquitetural:**
-[Por que esta solução de UI foi escolhida]
-
-**🏗️ Decisões de Design:**
-- **Pattern 1:** [Justificativa]
-- **Tecnologia X:** [Por que foi escolhida]
-- **Estrutura Y:** [Benefícios]
-
-#### 📐 Especificações Técnicas
-
-**🔧 Componentes Implementados:**
-- [Lista de arquivos e componentes]
-
-**📦 Estrutura de Arquivos:**
-[estrutura de diretórios]
-
-**🔗 Dependências:**
-- [Lista de dependências npm]
-
-**⚙️ Configurações:**
-- [Configurações específicas do componente]
-
-#### 🎨 Arquitetura de Componentes
-
-**📊 Diagrama de Componentes:**
-[diagrama mermaid da arquitetura]
-
-
-**🔄 Fluxo de Estado:**
-[diagrama de fluxo de estado]
-
-
-#### 💾 Especificação de Implementação
-
-**🔧 [NomeComponente].tsx**
-[Código]
-
-**📋 Props Interface:**
-- [Lista detalhada de props]
-
-**🔧 Hooks Customizados:**
-- [Lista de hooks específicos]
-
-#### 🧪 Casos de Uso e Implementação
-
-**1. [Uso Básico]:**
-[Exemplo básico de uso]
-
-
-**2. [Configuração Avançada]:**
-[Exemplo avançado]
-
-#### 📊 Métricas de Qualidade
-
-**🔍 Análise Estática:**
-- **Bundle Size:** [tamanho] gzipped
-- **TypeScript Coverage:** [%]
-- **Performance Score:** [score]/100
-
-**🧪 Cobertura de Testes:**
-- **Testes Unitários:** [%]
-- **Testes E2E:** [%]
-- **Testes de Acessibilidade:** [%]
-
-**⚡ Performance Metrics:**
-- **First Paint:** [tempo]
-- **Animation Frame Rate:** [fps]
-- **Memory Usage:** [mb]
-
-#### 🔄 Histórico de Alterações
-
-| Data | Versão | Alteração | Arquiteto/Dev |
-|------|--------|-----------|---------------|
-| [Data] | [Ver] | [Descrição] | [Nome] |
-
-#### 🔮 Próximos Passos
-- [ ] [Próximo passo 1]
-- [ ] [Próximo passo 2]
-
-</details><br>
-```
-
 </details>
 
 <br>
-
-### 🏗️ Template para Documentação de Aplicação Frontend
-
-```markdown
-## 🎨 [nome_aplicacao]/ - *[Propósito da Aplicação]*
-
-👨‍💻 **Responsabilidade:** [Descrição da responsabilidade da aplicação]
-
-<details>
-    <summary>🛠 Detalhes da Aplicação [Nome]</summary>
-
-### 📊 Status Geral da Aplicação
-- **Componentes Totais:** [numero]
-- **Componentes Documentados:** [numero]  
-- **Componentes em Desenvolvimento:** [numero]
-- **Cobertura de Documentação:** [%]
-- **Design System Compliance:** [%]
-
-### 🎯 Componentes Implementados
-[Lista de componentes usando o template acima]
-
-### 📊 Métricas da Aplicação
-
-| Métrica | Valor Atual | Meta | Status |
-|---------|-------------|------|--------|
-| **Métrica 1** | [valor] | [meta] | [status] |
-| **Métrica 2** | [valor] | [meta] | [status] |
-
-### 🏗️ Arquitetura da Aplicação
-
-**🎯 Padrões Utilizados:**
-- [Lista de padrões de design frontend]
-
-**📐 Princípios Frontend:**
-- [Check de cada princípio]
-
-### 📈 Versioning
-
-| Versão | Data | Descrição | Componentes | Arquiteto |
-|:-------|:-----|:----------|:------------|:----------|
-| [ver] | [data] | [desc] | [components] | [nome] |
-
-</details><br>
-```

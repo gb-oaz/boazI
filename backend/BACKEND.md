@@ -358,6 +358,256 @@ Closes #[número da issue]
 
 <br>
 
+### 🏗️ Template para Documentação de Módulo
+```markdown
+## 🔧 [nome_modulo]/ - *[Propósito do Módulo]*
+
+👨‍💻 **Responsabilidade:** [Descrição da responsabilidade do módulo]
+
+<details>
+    <summary>🛠 Detalhes do Módulo [Nome]</summary>
+
+### 📊 Status Geral do Módulo
+- **Features Totais:** [numero]
+- **Features Concluídas:** [numero]  
+- **Features em Desenvolvimento:** [numero]
+- **Cobertura de Documentação:** [%]
+- **Complexidade Ciclomática:** [Baixa/Média/Alta]
+
+### 🎯 Features Implementadas
+[Lista de features usando de Novas Features]
+
+### 📊 Métricas do Módulo
+
+| Métrica | Valor Atual | Meta | Status |
+|---------|-------------|------|--------|
+| **Métrica 1** | [valor] | [meta] | [status] |
+| **Métrica 2** | [valor] | [meta] | [status] |
+
+### 🏗️ Arquitetura do Módulo
+
+**🎯 Padrões Utilizados:**
+- [Lista de padrões de design]
+
+**📐 Princípios SOLID:**
+- [Check de cada princípio]
+
+### 📈 Versioning
+
+| Versão | Data | Descrição | Features | Arquiteto |
+|:-------|:-----|:----------|:---------|:----------|
+| [ver] | [data] | [desc] | [features] | [nome] |
+
+</details><br>
+```
+
+<br>
+
+
+## 📝 Template para Novas Features de Desenvolvimento
+```markdown
+<details>
+ <summary>🛠 F[NUMERO]/[Nome_da_Feature] - [Status]</summary>
+
+#### 📊 Status da Feature
+- 🔵 **Status:** [Em Desenvolvimento/Parado/Concluído]
+- 👤 **Responsável DEV:** [Nome do Desenvolvedor]
+- 🏗️ **Arquiteto:** [Nome do Arquiteto]
+- 📅 **Data Início:** [Data]
+- 🎯 **Sprint:** [Sprint Atual]
+- ⏱️ **Estimativa:** [X] horas
+
+#### 📋 Informações da Feature
+
+**📝 Descrição Técnica:**
+[Descrição detalhada da implementação técnica]
+
+**🎯 Objetivo Arquitetural:**
+[Por que esta solução foi escolhida arquiteturalmente]
+
+**🏗️ Decisões de Design:**
+- **Padrão 1:** [Justificativa]
+- **Padrão 2:** [Justificativa]
+- **Tecnologia X:** [Por que foi escolhida]
+
+
+#### 📐 Especificações Técnicas
+
+**🔧 Componentes Implementados:**
+- [Lista de classes e interfaces]
+
+**📦 Estrutura de Pacotes:**
+- [estrutura de diretórios e arquivos]
+
+**🔗 Dependências:**
+- [Lista de dependências externas]
+
+**⚙️ Configurações:**
+- [Configurações necessárias]
+
+
+#### 🎨 Diagramas Arquiteturais
+
+**📊 Diagrama de Classes:**
+[![Diagrama](../assets/[modulo]/dc_F[numero]_[nome].png)]
+
+**🔄 Diagrama de Sequência:**
+[![Diagrama](../assets/[modulo]/dc_F[numero]_[nome].png)]
+
+**🏗️ Diagrama de Componentes:**
+[![Diagrama](../assets/[modulo]/dc_F[numero]_[nome].png)]
+
+
+#### 💾 Especificação de Classes
+
+**🔧 [NomeClasse].java**
+[Exemplo de código]
+
+**📋 Atributos:**
+- [Lista de atributos com descrição]
+
+**🔧 Métodos Principais:**
+- [Lista de métodos com descrição]
+
+
+#### 🧪 Casos de Uso
+
+**1. [Cenário 1]:**
+[Exemplo de código]
+
+**2. [Cenário 2]:**
+[Exemplo de código]
+
+</details>
+
+#### 📊 Métricas de Qualidade
+
+**🔍 Análise Estática:**
+- **Complexidade Ciclomática:** [valor]
+- **Linhas de Código:** [valor]
+- **Acoplamento:** [Alto/Médio/Baixo]
+- **Coesão:** [Alta/Média/Baixa]
+
+**🧪 Cobertura de Testes:**
+- **Testes Unitários:** [%]
+- **Testes de Integração:** [%]
+
+**⚡ Performance:**
+- **[Métrica 1]:** [valor]
+- **[Métrica 2]:** [valor]
+
+#### 🔄 Histórico de Alterações
+
+| Data | Versão | Alteração | Arquiteto/Dev |
+|------|--------|-----------|---------------|
+| [Data] | [Ver] | [Descrição] | [Nome] |
+
+#### 🔮 Próximos Passos
+- [ ] [Próximo passo 1]
+- [ ] [Próximo passo 2]
+
+```
+
+<br>
+
+## 📝 Template para Novas Features de QA
+```markdown
+<details>
+  <summary>🛠 F[NUMERO]/[Nome_da_Feature] - [Status]</summary>
+
+#### 📊 Status da Feature
+- 🔵 **Status:** [Em Desenvolvimento/Parado/Concluído]
+- 👤 **Responsável QA:** [Nome do QA]
+- 📅 **Data Início:** [Data]
+- 🎯 **Sprint:** [Sprint Atual]
+- ⏱️ **Estimativa:** [X] horas
+
+#### 📋 Informações da Feature
+
+**📝 Descrição Resumida:**
+[Breve descrição da funcionalidade]
+
+**🎯 Objetivo de Negócio:**
+[Por que esta feature é importante]
+
+**👥 Stakeholders:**
+- [Lista de stakeholders e como são impactados]
+
+#### 📋 Especificação Técnica
+
+**🔧 Componentes a Serem Testados:**
+- [Lista de classes, métodos, endpoints a testar]
+
+**📐 Critérios de Aceitação:**
+- [ ] [Critério 1]
+- [ ] [Critério 2]
+- [ ] [Critério 3]
+
+**🧪 Cenários de Teste Principais:**
+1. **[Nome Cenário 1]** - [Descrição]
+2. **[Nome Cenário 2]** - [Descrição]
+
+#### 🥒 Especificação Gherkin
+
+
+Feature: F[NUMERO]/[Nome_da_Feature]
+  """
+  Como [tipo de usuário]
+  Eu quero [funcionalidade]
+  Para que [benefício/valor]
+  
+  Regras de Negócio:
+  - [Regra 1]
+  - [Regra 2]
+  """
+
+  Background:
+    Given [pré-condições comuns]
+
+  @smoke @critical
+  Scenario: [Nome do cenário principal]
+    Given [pré-condição]
+    When [ação]
+    Then [resultado esperado]
+    And [validação adicional]
+
+  @[tag] @[categoria]
+  Scenario Outline: [Nome do cenário com exemplos]
+    Given [pré-condição com "<parametro>"]
+    When [ação com "<parametro>"]
+    Then [resultado com "<parametro>"]
+
+    Examples:
+      | parametro | valor_esperado |
+      | valor1    | resultado1     |
+      | valor2    | resultado2     |
+
+
+#### 🔬 Cenários de Teste Detalhados
+
+**🧪 Testes Unitários Relacionados:**
+- [Lista de classes de teste]
+
+**🔗 Testes de Integração:**
+- [Lista de testes de integração]
+
+
+**📊 Métricas de Qualidade:**
+- **Cobertura de Código:** [%] (meta: 80%)
+- **Cenários BDD:** [numero] implementados
+- **Casos de Teste:** [numero] total
+- **Tempo de Execução:** [tempo] (meta: < 5s)
+
+#### 🔄 Histórico de Alterações
+
+| Data | Versão | Alteração | Responsável |
+|------|--------|-----------|-------------|
+| [Data] | [Ver] | [Descrição] | [Nome] |
+```
+
+<br>
+
+
 ## 📈 Métricas e Monitoramento
 
 ### 📊 KPIs de Desenvolvimento
@@ -470,101 +720,7 @@ Closes #[número da issue]
 </details><br>
 
 
-## 📝 Template para Novas Features de QA
 
-```markdown
-<details>
-  <summary>🛠 F[NUMERO]/[Nome_da_Feature] - [Status]</summary>
-
-#### 📊 Status da Feature
-- 🔵 **Status:** [Em Desenvolvimento/Parado/Concluído]
-- 👤 **Responsável QA:** [Nome do QA]
-- 📅 **Data Início:** [Data]
-- 🎯 **Sprint:** [Sprint Atual]
-- ⏱️ **Estimativa:** [X] horas
-
-#### 📋 Informações da Feature
-
-**📝 Descrição Resumida:**
-[Breve descrição da funcionalidade]
-
-**🎯 Objetivo de Negócio:**
-[Por que esta feature é importante]
-
-**👥 Stakeholders:**
-- [Lista de stakeholders e como são impactados]
-
-#### 📋 Especificação Técnica
-
-**🔧 Componentes a Serem Testados:**
-- [Lista de classes, métodos, endpoints a testar]
-
-**📐 Critérios de Aceitação:**
-- [ ] [Critério 1]
-- [ ] [Critério 2]
-- [ ] [Critério 3]
-
-**🧪 Cenários de Teste Principais:**
-1. **[Nome Cenário 1]** - [Descrição]
-2. **[Nome Cenário 2]** - [Descrição]
-
-#### 🥒 Especificação Gherkin
-
-
-Feature: F[NUMERO]/[Nome_da_Feature]
-  """
-  Como [tipo de usuário]
-  Eu quero [funcionalidade]
-  Para que [benefício/valor]
-  
-  Regras de Negócio:
-  - [Regra 1]
-  - [Regra 2]
-  """
-
-  Background:
-    Given [pré-condições comuns]
-
-  @smoke @critical
-  Scenario: [Nome do cenário principal]
-    Given [pré-condição]
-    When [ação]
-    Then [resultado esperado]
-    And [validação adicional]
-
-  @[tag] @[categoria]
-  Scenario Outline: [Nome do cenário com exemplos]
-    Given [pré-condição com "<parametro>"]
-    When [ação com "<parametro>"]
-    Then [resultado com "<parametro>"]
-
-    Examples:
-      | parametro | valor_esperado |
-      | valor1    | resultado1     |
-      | valor2    | resultado2     |
-
-
-#### 🔬 Cenários de Teste Detalhados
-
-**🧪 Testes Unitários Relacionados:**
-- [Lista de classes de teste]
-
-**🔗 Testes de Integração:**
-- [Lista de testes de integração]
-
-
-**📊 Métricas de Qualidade:**
-- **Cobertura de Código:** [%] (meta: 80%)
-- **Cenários BDD:** [numero] implementados
-- **Casos de Teste:** [numero] total
-- **Tempo de Execução:** [tempo] (meta: < 5s)
-
-#### 🔄 Histórico de Alterações
-
-| Data | Versão | Alteração | Responsável |
-|------|--------|-----------|-------------|
-| [Data] | [Ver] | [Descrição] | [Nome] |
-```
 
 </details>
 
@@ -654,155 +810,7 @@ Feature: F[NUMERO]/[Nome_da_Feature]
 </details><br>
 
 
-## 📝 Template para Novas Features de Desenvolvimento
-
-```markdown
-<details>
- <summary>🛠 F[NUMERO]/[Nome_da_Feature] - [Status]</summary>
-
-#### 📊 Status da Feature
-- 🔵 **Status:** [Em Desenvolvimento/Parado/Concluído]
-- 👤 **Responsável DEV:** [Nome do Desenvolvedor]
-- 🏗️ **Arquiteto:** [Nome do Arquiteto]
-- 📅 **Data Início:** [Data]
-- 🎯 **Sprint:** [Sprint Atual]
-- ⏱️ **Estimativa:** [X] horas
-
-#### 📋 Informações da Feature
-
-**📝 Descrição Técnica:**
-[Descrição detalhada da implementação técnica]
-
-**🎯 Objetivo Arquitetural:**
-[Por que esta solução foi escolhida arquiteturalmente]
-
-**🏗️ Decisões de Design:**
-- **Padrão 1:** [Justificativa]
-- **Padrão 2:** [Justificativa]
-- **Tecnologia X:** [Por que foi escolhida]
-
-
-#### 📐 Especificações Técnicas
-
-**🔧 Componentes Implementados:**
-- [Lista de classes e interfaces]
-
-**📦 Estrutura de Pacotes:**
-- [estrutura de diretórios e arquivos]
-
-**🔗 Dependências:**
-- [Lista de dependências externas]
-
-**⚙️ Configurações:**
-- [Configurações necessárias]
-
-
-#### 🎨 Diagramas Arquiteturais
-
-**📊 Diagrama de Classes:**
-[![Diagrama](../assets/[modulo]/dc_F[numero]_[nome].png)]
-
-**🔄 Diagrama de Sequência:**
-[![Diagrama](../assets/[modulo]/dc_F[numero]_[nome].png)]
-
-**🏗️ Diagrama de Componentes:**
-[![Diagrama](../assets/[modulo]/dc_F[numero]_[nome].png)]
-
-
-#### 💾 Especificação de Classes
-
-**🔧 [NomeClasse].java**
-[Exemplo de código]
-
-**📋 Atributos:**
-- [Lista de atributos com descrição]
-
-**🔧 Métodos Principais:**
-- [Lista de métodos com descrição]
-
-
-#### 🧪 Casos de Uso
-
-**1. [Cenário 1]:**
-[Exemplo de código]
-
-**2. [Cenário 2]:**
-[Exemplo de código]
-
-</details>
-
-#### 📊 Métricas de Qualidade
-
-**🔍 Análise Estática:**
-- **Complexidade Ciclomática:** [valor]
-- **Linhas de Código:** [valor]
-- **Acoplamento:** [Alto/Médio/Baixo]
-- **Coesão:** [Alta/Média/Baixa]
-
-**🧪 Cobertura de Testes:**
-- **Testes Unitários:** [%]
-- **Testes de Integração:** [%]
-
-**⚡ Performance:**
-- **[Métrica 1]:** [valor]
-- **[Métrica 2]:** [valor]
-
-#### 🔄 Histórico de Alterações
-
-| Data | Versão | Alteração | Arquiteto/Dev |
-|------|--------|-----------|---------------|
-| [Data] | [Ver] | [Descrição] | [Nome] |
-
-#### 🔮 Próximos Passos
-- [ ] [Próximo passo 1]
-- [ ] [Próximo passo 2]
-
-```
 
 </details>
 
 <br>
-
-### 🏗️ Template para Documentação de Módulo
-
-```markdown
-## 🔧 [nome_modulo]/ - *[Propósito do Módulo]*
-
-👨‍💻 **Responsabilidade:** [Descrição da responsabilidade do módulo]
-
-<details>
-    <summary>🛠 Detalhes do Módulo [Nome]</summary>
-
-### 📊 Status Geral do Módulo
-- **Features Totais:** [numero]
-- **Features Concluídas:** [numero]  
-- **Features em Desenvolvimento:** [numero]
-- **Cobertura de Documentação:** [%]
-- **Complexidade Ciclomática:** [Baixa/Média/Alta]
-
-### 🎯 Features Implementadas
-[Lista de features usando o template acima]
-
-### 📊 Métricas do Módulo
-
-| Métrica | Valor Atual | Meta | Status |
-|---------|-------------|------|--------|
-| **Métrica 1** | [valor] | [meta] | [status] |
-| **Métrica 2** | [valor] | [meta] | [status] |
-
-### 🏗️ Arquitetura do Módulo
-
-**🎯 Padrões Utilizados:**
-- [Lista de padrões de design]
-
-**📐 Princípios SOLID:**
-- [Check de cada princípio]
-
-### 📈 Versioning
-
-| Versão | Data | Descrição | Features | Arquiteto |
-|:-------|:-----|:----------|:---------|:----------|
-| [ver] | [data] | [desc] | [features] | [nome] |
-
-</details><br>
-```
