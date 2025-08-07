@@ -605,7 +605,7 @@ docker-compose up -d
 ### **🏗️ Estrutura dos Microsserviços**
 ```
 backend/
-├── core/               # Biblioteca compartilhada
+├── core/              # Biblioteca compartilhada
 ├── ms_auth/           # Serviço de autenticação
 ├── ms_quiz/           # Serviço de quiz
 ├── ms_live/           # Serviço de transmissão ao vivo
