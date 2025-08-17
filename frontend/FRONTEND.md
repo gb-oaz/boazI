@@ -11,7 +11,7 @@
 <details>
     <summary>🛠 Visualizar Processo Completo</summary>
 
-![Processo](../.assets/proccess_dev_qa.png)
+![Processo](../.assets/readme/proccess_dev_qa.png)
 
 <br>
 
@@ -96,9 +96,9 @@ Uma tarefa frontend só está completa quando:
 - Pull requests devem ser feitos para a branch home. Quando o desenvolvimento estiver concluído, a branch home deve abrir um pull request para a branch de release do projeto.
 - Em caso de refatorar durante o projeto, atualize primeiro a documentação Gherkin e os diagramas UML.
 
-![Gitflow](../.assets/gitflow_nova_feature.png)
+![Gitflow](../.assets/readme/gitflow_nova_feature.png)
 
-![Gitflow](../.assets/gitflow_bug.png)
+![Gitflow](../.assets/readme/gitflow_bug.png)
 
 
 ### <span style="color: yellow">🔧 Funcionalidades Antigas Frontend</span> - *(quando a solução existe, mas precisa de reparos e ajustes)*
